@@ -9,10 +9,10 @@ import { MdPhoneInTalk } from "react-icons/md";
 import { RxArrowTopRight } from "react-icons/rx";
 
 const navData = [
-  //   {
-  //     text: "Home",
-  //     path: "/",
-  //   },
+  {
+    text: "Home",
+    path: "/",
+  },
   {
     text: "About",
     path: "/about",
@@ -105,7 +105,7 @@ const Navbar = () => {
                     onMouseEnter={() => setIsDropdown(true)}
                     onMouseLeave={() => setIsDropdown(false)}
                     className={`${
-                      currentpath.startsWith(item.path)
+                      currentpath.startsWith("/our-businesses")
                         ? "text-secondaryGreen border-secondaryGreen"
                         : "text-primaryGrey border-primaryGreen"
                     } relative cursor-pointer border-b-[5px] flex items-center gap-2 pb-1 rounded-br-[4.5px] text-lg font-medium font-['Poppins'] leading-none
@@ -139,7 +139,7 @@ const Navbar = () => {
                 <Link
                   to={item.path}
                   className={`${
-                    currentpath.startsWith(item.path)
+                    currentpath === item.path
                       ? "text-secondaryGreen border-secondaryGreen"
                       : "text-primaryGrey border-primaryGreen"
                   } border-b-[5px] pb-1 rounded-br-[4.5px] text-lg font-medium font-['Poppins'] leading-none`}
@@ -149,7 +149,7 @@ const Navbar = () => {
               );
             })}
           </div>
-          <div className="p-[2px] bg-gradient-to-tr from-[#FFFFFF] rounded-full  to-[#C9C9C900]">
+          <div className="p-[2px] bg-gradient-to-tr transition-all transition-discrete duration-100 ease-out delay-75 hover:from-[#C9C9C900] from-[#FFFFFF] rounded-full  to-[#C9C9C900] hover:to-[#FFFFFF]">
             <div className="p-[5px] bg-primaryGreen rounded-full">
               <button className="bg-white text-primaryGreen flex gap-2 items-center rounded-full px-[30px] py-[10px]">
                 <p className="justify-start text-BHL-Color text-xl font-semibold font-['Poppins']">

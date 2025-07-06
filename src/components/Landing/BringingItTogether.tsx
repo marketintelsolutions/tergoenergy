@@ -44,7 +44,7 @@ const BringingItTogether = () => {
         Our Testimonials
       </h3>
 
-      <div className="bg-white mt-[122px] w-[80%] py-[129px] max-w-[1410px] mx-auto">
+      <div className="bg-white shadow-[0px_69px_114px_rgba(58,64,58,0.08)] rounded-[20px] mt-[82px] w-[80%] py-[129px] max-w-[1410px] mx-auto">
         <div className="w-[80%] mx-auto">
           <div className="flex justify-between gap-14">
             <div className="relative w-[253px] h-[292px] bg-primaryGreen rounded-[8px]">
