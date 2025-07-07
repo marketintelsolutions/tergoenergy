@@ -1,21 +1,73 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Button from "../ui/Button";
 
+const carousel = [
+  {
+    img: "manworking",
+    heading: "Leading provider of clean energy solutions across Africa",
+    text:
+      "Accelerating clean energy transition through building a portfolio of assets in renewable energy and natural gas to achieve stakeholders' value",
+  },
+  {
+    img: "banner2",
+    heading: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    text:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic ratione recusandae magnam quaerat rem unde pariatur repellat iste exercitationem.",
+  },
+  {
+    img: "banner3",
+    heading: "Lorem ipsum dolor sit amet g elit. Distinctio, iusto?",
+    text:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos possimus doloremque perspiciatis ullam odio magni.",
+  },
+];
+
 const Banner = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      if (activeIndex === carousel.length - 1) {
+        setActiveIndex(0);
+        return;
+      }
+      setActiveIndex((prev) => prev + 1);
+    }, 4000);
+
+    return () => clearTimeout(timeout);
+  }, [activeIndex]);
   return (
-    <div className="w-full text-xl h-lvh bg-black">
-      <div className="w-[85%] mx-auto max-w-[1600px] py-[100px] flex flex-col gap-7 justify-center">
-        <h1 className="max-w-[873px] justify-start text-neutral-100 text-[68px] font-semibold font-['Poppins'] leading-[90.60px]">
-          Leading provider of clean energy solutions across Africa
-        </h1>
-        <p className="max-w-[855px] justify-start text-zinc-400 text-[28px] font-medium font-['Poppins'] leading-10">
-          Accelerating clean energy transition through building a portfolio of
-          assets in renewable energy and natural gas to achieve stakeholders'
-          value
-        </p>
-        <div className="mt-20">
-          <Button text="LEARN MORE" />
+    <div
+      style={{
+        backgroundImage: `url(/images/${carousel[activeIndex].img}.jpg)`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+      className="relative w-full text-xl h-lvh "
+    >
+      <div className="bg-black/25 h-full ">
+        <div className="w-[85%] mx-auto max-w-[1600px] py-[100px] flex flex-col gap-7 justify-center">
+          <h1 className="max-w-[873px] justify-start text-neutral-100 text-[68px] font-semibold font-['Poppins'] leading-[90.60px]">
+            {carousel[activeIndex].heading}
+          </h1>
+          <p className="max-w-[855px] justify-start text-zinc-400 text-[28px] font-medium font-['Poppins'] leading-10">
+            {carousel[activeIndex].text}
+          </p>
+          <div className="mt-20">
+            <Button text="LEARN MORE" />
+          </div>
         </div>
+      </div>
+
+      <div className="absolute bottom-20 w-full justify-center flex gap-6">
+        {Array.from({ length: carousel.length }, (_, index) => (
+          <div
+            key={index}
+            className={`w-3 h-3  rounded-full ${
+              index === activeIndex ? "bg-primaryGreen" : "bg-[#d9d9d9]"
+            }`}
+          ></div>
+        ))}
       </div>
     </div>
   );
