@@ -15,8 +15,8 @@ const News = () => {
             />
           </div>
           <p className=" w-full max-w-[800px] text-justify justify-start text-black text-[22px] font-light font-['Poppins'] leading-10">
-            BGL’s Corporate Finance Division provides a wide range of services
-            to a substantial and diversified client base that includes
+            Tergo Energy's Corporate Finance Division provides a wide range of
+            services to a substantial and diversified client base that includes
             corporations, financial institutions, investment funds and
             individuals. Our team offers insight across products, industries and
             regions, and clients may turn to us to structure an effective
@@ -30,17 +30,17 @@ const News = () => {
           </p>
         </div>
         <p className="w-full mt-10 text-justify justify-start text-black text-2xl font-light font-['Poppins'] leading-10">
-          BGL’s Corporate Finance Division provides a wide range of services to
-          a substantial and diversified client base that includes corporations,
-          financial institutions, investment funds and individuals. Our team
-          offers insight across products, industries and regions, and clients
-          may turn to us to structure an effective capital-raising strategy,
-          orchestrate a difficult merger or to handle the sale of a subsidiary.
-          Regardless of the assignment, clients expect the same level of expert
-          advice and commitment to their needs that has kept BGL among the
-          leading financial advisors in Nigeria every year since 1995. The
-          Corporate Finance Division remains at the front end of our growing
-          franchise and is composed of two main practices:
+          Tergo Energy's Corporate Finance Division provides a wide range of
+          services to a substantial and diversified client base that includes
+          corporations, financial institutions, investment funds and
+          individuals. Our team offers insight across products, industries and
+          regions, and clients may turn to us to structure an effective
+          capital-raising strategy, orchestrate a difficult merger or to handle
+          the sale of a subsidiary. Regardless of the assignment, clients expect
+          the same level of expert advice and commitment to their needs that has
+          kept BGL among the leading financial advisors in Nigeria every year
+          since 1995. The Corporate Finance Division remains at the front end of
+          our growing franchise and is composed of two main practices:
         </p>
 
         <div className="mt-[130px] flex justify-between gap-11">

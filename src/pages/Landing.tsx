@@ -8,7 +8,7 @@ const Landing = () => {
   return (
     <div className="bg-lightGreen">
       <Banner />
-      <WeBelieveSection />
+      {/* <WeBelieveSection /> */}
       <BringingItTogether />
       <StayUpdated />
     </div>

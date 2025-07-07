@@ -4,7 +4,7 @@ import OurPortfolio from "./OurPortfolio";
 
 const BringingItTogether = () => {
   return (
-    <section>
+    <section className="mt-20">
       <div
         className="w-[85%] max-w-[1600px] mx-auto rounded-[50px] py-[150px]"
         style={{
@@ -15,11 +15,11 @@ const BringingItTogether = () => {
       >
         <div className="w-[90%] mx-auto flex justify-center items-center gap-14">
           <div>
-            <h1 className="max-w-[404px] justify-start text-white text-6xl font-semibold font-['Poppins'] leading-[64px]">
-              Bringing it all together
+            <h1 className=" justify-start text-white text-6xl font-semibold font-['Poppins'] leading-[64px]">
+              Powering Africa's Energy Future
             </h1>
             <p className=" mt-5 justify-start text-white text-3xl font-medium font-['Poppins'] leading-10">
-              Restructured. Reinforced. Rejuvenated
+              Clean. Sustainable. Reliable.
             </p>
 
             <button className="mt-[130px] bg-[#FEFEFE] py-[12px] px-[30px] rounded-[8px] ">
@@ -41,7 +41,7 @@ const BringingItTogether = () => {
       <OurPortfolio />
 
       <h3 className="justify-start text-primaryGreen text-center mt-[152px] text-6xl font-semibold font-['Poppins'] leading-[105px]">
-        Our Testimonials
+        Client Testimonials
       </h3>
 
       <div className="bg-white shadow-[0px_69px_114px_rgba(58,64,58,0.08)] rounded-[20px] mt-[82px] w-[80%] py-[129px] max-w-[1410px] mx-auto">
@@ -54,11 +54,13 @@ const BringingItTogether = () => {
             </div>
             <div>
               <p className="max-w-[718px] justify-start text-black text-3xl font-normal font-['Poppins'] leading-[51px] tracking-tight">
-                BGL helped us with our finances for 8 months now and still helps
-                us. Great service and highly recommended.
+                Tergo Energy delivered exceptional renewable energy solutions
+                for our facility. Their professional approach and reliable
+                service have significantly reduced our energy costs while
+                supporting our sustainability goals.
               </p>
               <p className="w-[540px] h-7 mt-20 justify-start text-green-900 text-xl font-normal font-['Poppins']">
-                — Kim Hako - KIN Director at DGe Plc
+                — Energy Manager, Leading Manufacturing Company
               </p>
             </div>
           </div>
