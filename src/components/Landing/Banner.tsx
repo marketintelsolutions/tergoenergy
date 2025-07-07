@@ -10,15 +10,15 @@ const carousel = [
   },
   {
     img: "banner2",
-    heading: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    heading: "Comprehensive Gas & Renewable Energy Solutions",
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic ratione recusandae magnam quaerat rem unde pariatur repellat iste exercitationem.",
+      "From bulk gas supply and CNG services to solar installations and energy storage - we deliver sustainable energy solutions for residential, commercial, and industrial needs.",
   },
   {
     img: "banner3",
-    heading: "Lorem ipsum dolor sit amet g elit. Distinctio, iusto?",
+    heading: "Powering Africa's Energy Future Since 2020",
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos possimus doloremque perspiciatis ullam odio magni.",
+      "As a member of the Nigerian Gas Association, we're committed to addressing Africa's energy challenges through innovative natural gas and renewable energy solutions.",
   },
 ];
 
@@ -32,7 +32,7 @@ const Banner = () => {
         return;
       }
       setActiveIndex((prev) => prev + 1);
-    }, 4000);
+    }, 6000);
 
     return () => clearTimeout(timeout);
   }, [activeIndex]);
