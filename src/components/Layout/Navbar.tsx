@@ -127,10 +127,11 @@ const Navbar = () => {
                     </span>
 
                     {isDropdown && (
-                      <div className="absolute top-[120%] min-w-full w-max rounded-[20px]  p-[1px] bg-gradient-to-tr from-[#FFFFFF] via-primaryGrey to-primaryGrey">
+                      <div className="absolute top-[150%] min-w-full w-max rounded-[20px]  p-[1px] bg-gradient-to-tr from-[#FFFFFF] via-primaryGrey to-primaryGrey">
                         <div className="  flex flex-col gap-4 bg-primaryGrey rounded-[20px] backdrop-blur-[6px]  py-5 px-4 ">
                           {item.items.map((subItem) => (
                             <Link
+                              onClick={() => setIsDropdown(false)}
                               to={subItem.path}
                               className="justify-start border-b border-[#BDBDBD] pb-1 text-slate-50 text-lg font-semibold font-['Poppins'] underline"
                             >
