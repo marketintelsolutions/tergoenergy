@@ -7,8 +7,8 @@ module.exports = {
         max: '1200px'
       },
       colors: {
-        primaryGreen: '#060',
-        secondaryGreen: '#79FF91',
+        primaryGreen: '#13294a',// rgb(19,41,74)
+        secondaryGreen: '#3bb44a', //rgb(59,180,74) 
         secondaryBlack: '#000',
         lightGreen: '#E1FFE640',
         primaryGrey: '#A7A8A7'

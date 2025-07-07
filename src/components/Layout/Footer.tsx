@@ -12,6 +12,10 @@ const footerData = [
         path: "/",
       },
       {
+        text: "About Us",
+        path: "/about",
+      },
+      {
         text: "News",
         path: "/news",
       },
@@ -25,12 +29,20 @@ const footerData = [
     heading: "Company",
     items: [
       {
-        text: "About Us",
-        path: "/about",
+        text: "Projects",
+        path: "/our-businesses/projects",
       },
       {
-        text: "Our Businesses",
-        path: "/our-businesses",
+        text: "Nexus Gas",
+        path: "/our-businesses/nexus-gas",
+      },
+      {
+        text: "Cosol Energy",
+        path: "/our-businesses/cosol-energy",
+      },
+      {
+        text: "Multigas Systems",
+        path: "/our-businesses/multigas-systems",
       },
     ],
   },
@@ -53,9 +65,9 @@ const Footer = () => {
                 </Link>
               </div>
               <p className="self-stretch mt-[25px] opacity-80 justify-start text-white text-lg font-normal font-['Inter'] leading-loose tracking-tight">
-                E-mail: info@bglafrica.com <br />
-                URL: http://www.bglbglafrica.com <br />
-                Tel: +234 810 997 6905
+                E-mail: info@tergoenergy.com <br />
+                URL: https://tergoenergy.com <br />
+                Tel: +234 800 300 3000
               </p>
               <div className="flex gap-[22px] mt-[71px] text-white items-center">
                 <span>
@@ -112,7 +124,7 @@ const Footer = () => {
       </div>
       <div className="w-[85%] max-w-[1600px] mx-auto flex gap-20 bg-black py-[34px] px-10 rounded-t-[50px] mt-[47px]">
         <p className="justify-start text-white text-lg font-light font-['Poppins'] leading-none">
-          © 2025 BGL Group
+          © 2025 Tergo Energy
         </p>
         <p className="justify-start text-white text-lg font-light font-['Poppins'] leading-none">
           Privacy Policy

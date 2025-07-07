@@ -17,22 +17,30 @@ const navData = [
     text: "About",
     path: "/about",
   },
+
   {
     text: "Our Businesses",
-    path: "/our-businesses",
     items: [
       {
-        text: "BGL Securities",
-        path: "/our-businesses/bgl-securities",
+        text: "Projects",
+        path: "/our-businesses/projects",
       },
       {
-        text: "BGL Capitals",
-        path: "/our-businesses/bgl-capitals",
+        text: "Nexus Gas",
+        path: "/our-businesses/nexus-gas",
       },
       {
-        text: "BGL Assets Management",
-        path: "/our-businesses/bgl-assets-management",
+        text: "Cosol Energy",
+        path: "/our-businesses/cosol-energy",
       },
+      {
+        text: "Multigas Systems",
+        path: "/our-businesses/multigas-systems",
+      },
+      // {
+      //   text: "bgl securities",
+      //   path: "/our-businesses/bgl-securities",
+      // },
     ],
   },
   {
@@ -67,7 +75,7 @@ const Navbar = () => {
                 <TbWorld />
               </span>
               <p className="  justify-start text-primaryGreen text-xl font-medium font-['Poppins'] leading-tight">
-                info@bglafrica.com
+                info@tergoenergy.com
               </p>
             </div>
             <div className="flex gap-3">
@@ -75,7 +83,7 @@ const Navbar = () => {
                 <MdPhoneInTalk />
               </span>
               <p className="  justify-start text-primaryGreen text-xl font-medium font-['Poppins'] leading-tight">
-                +234 810 997 6905
+                +234 800 300 3000
               </p>
             </div>
           </div>
@@ -119,10 +127,11 @@ const Navbar = () => {
                     </span>
 
                     {isDropdown && (
-                      <div className="absolute top-[120%] min-w-full w-max rounded-[20px]  p-[1px] bg-gradient-to-tr from-[#FFFFFF] via-primaryGrey to-primaryGrey">
+                      <div className="absolute top-[150%] min-w-full w-max rounded-[20px]  p-[1px] bg-gradient-to-tr from-[#FFFFFF] via-primaryGrey to-primaryGrey">
                         <div className="  flex flex-col gap-4 bg-primaryGrey rounded-[20px] backdrop-blur-[6px]  py-5 px-4 ">
                           {item.items.map((subItem) => (
                             <Link
+                              onClick={() => setIsDropdown(false)}
                               to={subItem.path}
                               className="justify-start border-b border-[#BDBDBD] pb-1 text-slate-50 text-lg font-semibold font-['Poppins'] underline"
                             >

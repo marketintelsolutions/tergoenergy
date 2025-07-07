@@ -12,11 +12,11 @@ const BringingItTogether = () => {
     >
       <div className="w-[90%] mx-auto flex justify-center items-center gap-14">
         <div>
-          <h1 className="max-w-[404px] justify-start text-white text-6xl font-semibold font-['Poppins'] leading-[64px]">
-            Bringing it all together
+          <h1 className=" justify-start text-white text-6xl font-semibold font-['Poppins'] leading-[64px]">
+            Powering Africa's Energy Future
           </h1>
           <p className=" mt-5 justify-start text-white text-3xl font-medium font-['Poppins'] leading-10">
-            Restructured. Reinforced. Rejuvenated
+            Clean. Sustainable. Reliable.
           </p>
 
           <button className="mt-[130px] bg-[#FEFEFE] py-[12px] px-[30px] rounded-[8px] ">

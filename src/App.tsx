@@ -5,9 +5,11 @@ import Landing from "./pages/Landing";
 import About from "./pages/About";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
+import NexusGas from "./pages/NexusGas";
+import CosolEnergy from "./pages/CosolEnergy";
+import MultigasSystems from "./pages/MultigasSystems";
+import Projects from "./pages/Projects";
 import BglSecurities from "./pages/BglSecurities";
-import BglCapital from "./pages/BglCapital";
-import BglAssets from "./pages/BglAssets";
 
 function App() {
   const router = createBrowserRouter([
@@ -28,6 +30,30 @@ function App() {
       ),
     },
     {
+      path: "/our-businesses/nexus-gas",
+      element: (
+        <MainLayout>
+          <NexusGas />
+        </MainLayout>
+      ),
+    },
+    {
+      path: "/our-businesses/cosol-energy",
+      element: (
+        <MainLayout>
+          <CosolEnergy />
+        </MainLayout>
+      ),
+    },
+    {
+      path: "/our-businesses/multigas-systems",
+      element: (
+        <MainLayout>
+          <MultigasSystems />
+        </MainLayout>
+      ),
+    },
+    {
       path: "/our-businesses/bgl-securities",
       element: (
         <MainLayout>
@@ -36,18 +62,10 @@ function App() {
       ),
     },
     {
-      path: "/our-businesses/bgl-capitals",
+      path: "/our-businesses/projects",
       element: (
         <MainLayout>
-          <BglCapital />
-        </MainLayout>
-      ),
-    },
-    {
-      path: "/our-businesses/bgl-assets-management",
-      element: (
-        <MainLayout>
-          <BglAssets />
+          <Projects />
         </MainLayout>
       ),
     },
