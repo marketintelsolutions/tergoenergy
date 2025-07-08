@@ -1,13 +1,13 @@
 import React from "react";
 
 const Banner: React.FC<{ img?: string | null; text: string }> = ({
-  img = "webelieveimg",
+  img = "projects",
   text,
 }) => {
   return (
     <section
       style={{
-        backgroundImage: `url(/images/${img}.png)`,
+        backgroundImage: `url(/images/${img}.jpg)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}

@@ -10,7 +10,7 @@ const Projects = () => {
       category: "Commercial Solar Installation",
       description:
         "Comprehensive renewable energy solution for corporate headquarters featuring advanced solar panel systems and energy storage solutions.",
-      image: "/images/flower.jpg",
+      image: "/images/pacannex.jpg",
       status: "Completed",
     },
     {
@@ -18,7 +18,7 @@ const Projects = () => {
       category: "Energy Infrastructure",
       description:
         "Complete energy infrastructure development including gas supply systems and renewable energy integration for efficient operations.",
-      image: "/images/flower.jpg",
+      image: "/images/pacho.jpg",
       status: "Completed",
     },
     {
@@ -26,7 +26,7 @@ const Projects = () => {
       category: "Residential Energy Solutions",
       description:
         "Sustainable energy solutions for residential complex including solar installations, gas supply systems, and energy optimization.",
-      image: "/images/flower.jpg",
+      image: "/images/lolagarden.jpg",
       status: "Completed",
     },
   ];

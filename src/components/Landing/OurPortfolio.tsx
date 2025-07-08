@@ -22,17 +22,19 @@ import PortfolioItem from "./PortfolioItem";
 
 const portfolio = [
   {
-    img: "windturbine",
-    icon: "lock",
-    text: "COSOL ENERGY SOLUTION LIMITED",
-  },
-  {
-    img: "oilfactory",
+    img: "nexusbusiness",
     icon: "stairs",
     text: "NEXUS GAS TRADING LIMITED",
   },
+  
   {
-    img: "expert",
+    img: "cosolbusiness",
+    icon: "lock",
+    text: "COSOL ENERGY SOLUTION LIMITED",
+  },
+  
+  {
+    img: "multigasbusiness",
     icon: "briefcase",
     text: "MULTIGAS SYSTEMS LIMITED",
   },

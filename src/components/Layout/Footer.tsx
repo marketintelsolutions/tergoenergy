@@ -58,7 +58,7 @@ const Footer = () => {
               <div>
                 <Link to={"/"} className="w-full max-w-[200px] ">
                   <img
-                    src="/logo.png"
+                    src="/whitelogo.svg"
                     alt="logo"
                     className="w-full max-w-[250px]"
                   />
