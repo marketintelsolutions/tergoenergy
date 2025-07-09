@@ -2,20 +2,20 @@ import React from "react";
 
 const WhoWeAre = () => {
   return (
-    <section className="mt-[60px] w-[85%] max-w-[1600px] mx-auto">
-      <div className="w-full flex justify-between gap-[50px]">
-        <div className="min-h-full rounded-[60px] w-[45%] max-w-[685px]">
+    <section className="mt-8 md:mt-12 lg:mt-[60px] w-[95%] md:w-[85%] max-w-[1600px] mx-auto">
+      <div className="w-full flex flex-col lg:flex-row justify-between gap-8 md:gap-12 lg:gap-[50px]">
+        <div className="min-h-full rounded-[30px] md:rounded-[60px] w-full lg:w-[45%] max-w-[685px]">
           <img
             src="/images/manteeth.png"
             alt="man shining teeth"
-            className="w-full h-full object-cover rounded-[60px]"
+            className="w-full h-full object-cover rounded-[30px] md:rounded-[60px]"
           />
         </div>
-        <div className="h-full w-[55%] max-w-[800px]">
-          <h2 className="justify-start text-ash-g-Color text-5xl font-bold font-['Inter'] leading-11">
+        <div className="h-full w-full lg:w-[55%] max-w-[800px]">
+          <h2 className="justify-start text-ash-g-Color text-2xl md:text-4xl lg:text-5xl font-bold font-['Inter'] leading-tight md:leading-[1.2] lg:leading-11">
             About Tergo Energy
           </h2>
-          <p className="mt-[30px] text-justify justify-start text-black text-[21px] font-normal font-['Poppins'] leading-[40.68px]">
+          <p className="mt-4 md:mt-6 lg:mt-[30px] text-justify justify-start text-black text-base md:text-lg lg:text-[21px] font-normal font-['Poppins'] leading-relaxed md:leading-8 lg:leading-[40.68px]">
             Tergo Energy Limited, a subsidiary of PanAfrican Capital Holdings
             Limited, is committed to advancing Africa's energy transition by
             harnessing natural gas and renewable energy solutions. We focus on
@@ -42,7 +42,7 @@ const WhoWeAre = () => {
           </p>
         </div>
       </div>
-      <p className="w-full max-w-[1596px] mt-[50px] text-justify justify-start text-black text-[21px] font-normal font-['Poppins'] leading-[40.68px]">
+      <p className="w-full max-w-[1596px] mt-8 md:mt-12 lg:mt-[50px] text-justify justify-start text-black text-base md:text-lg lg:text-[21px] font-normal font-['Poppins'] leading-relaxed md:leading-8 lg:leading-[40.68px]">
         Our success is built on our core values of Services, Professionalism,
         Integrity, Respect, Innovation, and Team Spirit. These principles put
         our clients at the center of everything we do and drive the level of

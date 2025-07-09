@@ -36,37 +36,43 @@ const Banner = () => {
 
     return () => clearTimeout(timeout);
   }, [activeIndex]);
+
   return (
     <div
       style={{
         backgroundImage: `url(/images/${carousel[activeIndex].img}.jpg)`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
       }}
-      className="relative w-full text-xl h-lvh "
+      className="relative w-full text-xl min-h-[500px] md:min-h-[600px] lg:min-h-[700px]"
     >
-      <div className="bg-black/25 h-full ">
-        <div className="w-[85%] mx-auto max-w-[1600px] py-[100px] flex flex-col gap-7 justify-center">
-          <h1 className="max-w-[873px] justify-start text-neutral-100 text-[68px] font-semibold font-['Poppins'] leading-[90.60px]">
+      <div className="bg-black/25 h-full">
+        <div className="w-[90%] md:w-[85%] mx-auto max-w-[1600px] py-16 md:py-20 lg:py-[100px] flex flex-col gap-4 md:gap-7 justify-center min-h-[500px] md:min-h-[600px] lg:min-h-[700px]">
+          <h1 className="max-w-[873px] justify-start text-neutral-100 text-2xl md:text-4xl lg:text-5xl xl:text-[58px] font-semibold font-['Poppins'] leading-tight md:leading-[1.2] lg:leading-[1.3] xl:leading-[90.60px]">
             {carousel[activeIndex].heading}
           </h1>
-          <p className="max-w-[855px] justify-start text-zinc-400 text-[28px] font-medium font-['Poppins'] leading-10">
+          <p className="max-w-[855px] justify-start text-zinc-400 text-base md:text-lg lg:text-xl xl:text-[24px] font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-9 xl:leading-10">
             {carousel[activeIndex].text}
           </p>
-          <div className="mt-20">
+          <div className="mt-6 md:mt-8 lg:mt-12">
             <Button text="LEARN MORE" />
           </div>
         </div>
       </div>
 
-      <div className="absolute bottom-20 w-full justify-center flex gap-6">
+      {/* Carousel indicators */}
+      <div className="absolute bottom-8 md:bottom-12 lg:bottom-20 w-full justify-center flex gap-4 md:gap-6">
         {Array.from({ length: carousel.length }, (_, index) => (
-          <div
+          <button
             key={index}
-            className={`w-3 h-3  rounded-full ${
-              index === activeIndex ? "bg-primaryGreen" : "bg-[#d9d9d9]"
+            onClick={() => setActiveIndex(index)}
+            className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-colors duration-300 ${
+              index === activeIndex
+                ? "bg-primaryGreen"
+                : "bg-[#d9d9d9] hover:bg-gray-300"
             }`}
-          ></div>
+          />
         ))}
       </div>
     </div>
