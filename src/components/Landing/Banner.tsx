@@ -45,7 +45,7 @@ const Banner = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-      className="relative w-full text-xl min-h-[500px] md:min-h-[600px] lg:min-h-[700px]"
+      className="relative w-full text-xl h-[500px] md:h-[600px] lg:h-[800px]"
     >
       <div className="bg-black/25 h-full">
         <div className="w-[90%] md:w-[85%] mx-auto max-w-[1600px] py-16 md:py-20 lg:py-[100px] flex flex-col gap-4 md:gap-7 justify-center min-h-[500px] md:min-h-[600px] lg:min-h-[700px]">
