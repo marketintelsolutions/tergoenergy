@@ -7,7 +7,7 @@ const SharedBanner: React.FC<{ img?: string | null; text: string }> = ({
   return (
     <section
       style={{
-        backgroundImage: `url(/images/${img}.png)`,
+        backgroundImage: `url(/images/${img}.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
