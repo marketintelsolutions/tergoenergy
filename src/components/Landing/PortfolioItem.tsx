@@ -25,13 +25,13 @@ const PortfolioItem: React.FC<{
       {pathname === link && (
         <div className="absolute top-0 left-0 w-full h-full bg-black/50 rounded-[24px]"></div>
       )}
-      <div className="absolute top-0 left-2.5 -translate-y-1/2">
+      {/* <div className="absolute top-0 left-2.5 -translate-y-1/2">
         <img
           src={`/images/${icon}.png`}
           alt="icon"
           className="w-8 h-8 md:w-auto md:h-auto"
         />
-      </div>
+      </div> */}
       <div
         onMouseEnter={() => setIsItems(true)}
         onMouseLeave={() => setIsItems(false)}
