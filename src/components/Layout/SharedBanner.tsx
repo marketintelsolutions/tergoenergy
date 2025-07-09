@@ -1,7 +1,7 @@
 import React from "react";
 
 const SharedBanner: React.FC<{ img?: string | null; text: string }> = ({
-  img = "webelieveimg",
+  img = "aboutbanner",
   text,
 }) => {
   return (

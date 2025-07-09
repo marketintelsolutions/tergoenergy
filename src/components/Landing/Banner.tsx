@@ -3,19 +3,19 @@ import Button from "../ui/Button";
 
 const carousel = [
   {
-    img: "manworking",
+    img: "caro1",
     heading: "Leading provider of clean energy solutions across Africa",
     text:
       "Accelerating clean energy transition through building a portfolio of assets in renewable energy and natural gas to achieve stakeholders' value",
   },
   {
-    img: "banner2",
+    img: "caro2",
     heading: "Comprehensive Gas & Renewable Energy Solutions",
     text:
       "From bulk gas supply and CNG services to solar installations and energy storage - we deliver sustainable energy solutions for residential, commercial, and industrial needs.",
   },
   {
-    img: "banner3",
+    img: "caro3",
     heading: "Powering Africa's Energy Future Since 2020",
     text:
       "As a member of the Nigerian Gas Association, we're committed to addressing Africa's energy challenges through innovative natural gas and renewable energy solutions.",
