@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const StayUpdated = () => {
   return (
     <section className="pb-16 md:pb-24 lg:pb-[177px] mt-10 md:mt-20">
-      <div className="bg-secondaryGreen py-12 md:py-20 lg:py-[120px] rounded-[20px] md:rounded-[40px] w-[95%] md:w-[90%] mx-auto max-w-[1600px]">
+      <div className="bg-primaryGreen/90 py-12 md:py-20 lg:py-[120px] rounded-[20px] md:rounded-[40px] w-[95%] md:w-[90%] mx-auto max-w-[1600px]">
         <div className="w-[90%] md:w-[87%] mx-auto flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-[80px] justify-between">
           <div className="flex flex-col gap-6 md:gap-8 lg:gap-[35px]">
             <div className="w-16 md:w-20 h-[3px] bg-gradient-to-r from-white to-white/30 rounded-full" />
@@ -15,7 +15,7 @@ const StayUpdated = () => {
             </h2>
           </div>
           <div className="w-full flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-10 justify-center">
-            <div className="w-full max-w-[451px] bg-primaryGreen/80 rounded-[30px] md:rounded-[50px] shadow-[0px_69px_114px_0px_rgba(124,20,253,0.08)] py-8 px-6 md:py-10 md:px-8 lg:py-[47px] lg:px-[43px]">
+            <div className="w-full max-w-[451px] bg-primaryGreen/80 rounded-[30px] md:rounded-[50px] shadow-[0px_69px_114px_0px_rgba(20, 121, 253, 0.08)] py-8 px-6 md:py-10 md:px-8 lg:py-[47px] lg:px-[43px]">
               <h2 className="justify-start text-zinc-400 text-xl md:text-2xl lg:text-[26px] font-semibold font-['Poppins'] leading-tight md:leading-8 lg:leading-9">
                 Clean Energy Trends –<br />
                 2025 Outlook
@@ -38,7 +38,7 @@ const StayUpdated = () => {
                 </span>
               </Link>
             </div>
-            <div className="w-full max-w-[451px] bg-primaryGreen/80 rounded-[30px] md:rounded-[50px] shadow-[0px_69px_114px_0px_rgba(124,20,253,0.08)] py-8 px-6 md:py-10 md:px-8 lg:py-[47px] lg:px-[43px]">
+            <div className="w-full max-w-[451px] bg-primaryGreen/80 rounded-[30px] md:rounded-[50px] shadow-[0px_69px_114px_0px_rgba(20, 121, 253, 0.08)] py-8 px-6 md:py-10 md:px-8 lg:py-[47px] lg:px-[43px]">
               <h2 className="justify-start text-zinc-400 text-xl md:text-2xl lg:text-[26px] font-semibold font-['Poppins'] leading-tight md:leading-8 lg:leading-9">
                 Gas Infrastructure
                 <br />
