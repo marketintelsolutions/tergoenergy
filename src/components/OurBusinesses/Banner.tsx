@@ -10,7 +10,7 @@ const Banner: React.FC<{
   return (
     <section
       style={{
-        backgroundImage: `url(/images/${img}.jpg)`,
+        backgroundImage: `url(/images/${img}.png)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
