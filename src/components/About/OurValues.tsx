@@ -78,7 +78,7 @@ const OurValues = () => {
                 key={index}
                 className="relative flex flex-col gap-3 md:gap-5"
               >
-                <div className="hidden sm:flex absolute z-[1] -left-[100px] top-0 bg-[#D9D9D9] w-14 h-14 rounded-full"></div>
+                <div className="hidden sm:flex absolute z-[1] -left-[100px] top-0 bg-[#b0bd8f] w-14 h-14 rounded-full"></div>
                 <h2 className="text-left text-zinc-400 text-2xl md:text-3xl font-bold font-['Inter'] md:leading-10">
                   {item.heading}
                 </h2>

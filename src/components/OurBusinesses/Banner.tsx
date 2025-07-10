@@ -4,7 +4,7 @@ const Banner: React.FC<{
   img?: string | null;
   text: string;
   desc?: string;
-}> = ({ img = "webelieveimg", text, desc }) => {
+}> = ({ img = "projects", text, desc }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (

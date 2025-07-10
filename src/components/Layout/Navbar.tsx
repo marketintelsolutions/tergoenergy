@@ -72,7 +72,7 @@ const Navbar = () => {
           {/* Contact info - hidden on mobile */}
           <div className="hidden md:flex flex-wrap w-full items-center justify-center gap-5 lg:gap-[62px]">
             <div className="flex gap-3 items-center">
-              <span className="bg-primaryGreen p-1 rounded-full h-fit text-white">
+              <span className="bg-green-600 p-1 rounded-full h-fit text-white">
                 <TbWorld />
               </span>
               <p className="justify-start text-primaryGreen text-base font-medium font-['Poppins'] leading-tight">
@@ -80,7 +80,7 @@ const Navbar = () => {
               </p>
             </div>
             <div className="flex gap-3">
-              <span className="bg-primaryGreen p-1 rounded-full h-fit text-white">
+              <span className="bg-green-600 p-1 rounded-full h-fit text-white">
                 <MdPhoneInTalk />
               </span>
               <p className="justify-start text-primaryGreen text-base font-medium font-['Poppins'] leading-tight">
@@ -90,7 +90,7 @@ const Navbar = () => {
           </div>
 
           {/* Social icons */}
-          <div className=" flex gap-[22px] text-primaryGreen items-center">
+          <div className=" flex gap-[22px] text-green-600 items-center">
             <span>
               <FaFacebookF />
             </span>
@@ -178,7 +178,7 @@ const Navbar = () => {
           {/* Get Started Button */}
           <div className="p-[2px] bg-gradient-to-tr transition-all transition-discrete duration-100 ease-out delay-75 hover:from-[#C9C9C900] from-[#FFFFFF] rounded-full to-[#C9C9C900] hover:to-[#FFFFFF]">
             <div className="p-[5px] bg-primaryGreen rounded-full">
-              <button className="bg-white text-primaryGreen flex gap-2 items-center rounded-full px-4 py-2 md:px-[30px] md:py-[10px]">
+              <button className="bg-white text-green-600 flex gap-2 items-center rounded-full px-4 py-2 md:px-[30px] md:py-[10px]">
                 <p className="justify-start text-BHL-Color text-sm md:text-base font-semibold font-['Poppins']">
                   Get Started
                 </p>

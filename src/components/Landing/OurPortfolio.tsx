@@ -3,15 +3,7 @@ import PortfolioItem from "./PortfolioItem";
 
 const portfolio = [
   {
-    img: "windturbine",
-    icon: "energy",
-    text: "COSOL ENERGY SOLUTION LIMITED",
-    desc:
-      "We specialize in developing customized renewable energy solutions that cater specifically to your requirements. ",
-    link: "/our-businesses/cosol-energy",
-  },
-  {
-    img: "oilfactory",
+    img: "nexusbusiness",
     icon: "gas",
     text: "NEXUS GAS TRADING LIMITED",
     desc:
@@ -19,7 +11,15 @@ const portfolio = [
     link: "/our-businesses/nexus-gas",
   },
   {
-    img: "expert",
+    img: "cosolbusiness",
+    icon: "energy",
+    text: "COSOL ENERGY SOLUTION LIMITED",
+    desc:
+      "We specialize in developing customized renewable energy solutions that cater specifically to your requirements. ",
+    link: "/our-businesses/cosol-energy",
+  },
+  {
+    img: "multigasbusiness",
     icon: "cylinder",
     text: "MULTIGAS SYSTEMS LIMITED",
     desc:
