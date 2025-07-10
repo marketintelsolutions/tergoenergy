@@ -35,7 +35,7 @@ const values = [
 
 const OurValues = () => {
   return (
-    <section className="mt-20 w-[95%] md:w-[85%] max-w-[1600px] mx-auto rounded-[30px] md:rounded-[50px] py-[10px] sm:py-[50px] lg:py-[100px] bg-primaryGreen">
+    <section className="mt-20 w-[95%] md:w-[85%] max-w-[1600px] mx-auto rounded-[30px] md:rounded-[50px] py-[10px] sm:py-[50px] lg:py-[60px] bg-primaryGreen">
       <div className="w-[95%] md:w-[90%] mx-auto max-w-[1500px] flex xl:flex-nowrap flex-wrap justify-center gap-10">
         <div className="flex flex-col min-h-full gap-10 xl:w-[40%] xl:max-w-[439px]">
           <div className="bg-[#FAF6FF] xl:w-fit py-[35px] px-[25px] rounded-[30px] md:rounded-[58px] flex flex-col items-center gap-4 md:gap-7">
@@ -69,26 +69,26 @@ const OurValues = () => {
           </div>
         </div>
         <div className="xl:w-[60%] max-w-[915px] flex flex-col items-center py-[50px] bg-[#FAF6FF] rounded-[30px] md:rounded-[58px]">
-          <h2 className="w-full max-w-[80%] md:max-w-[60%] text-black text-2xl md:text-3xl font-bold font-['Inter'] leading-10">
+          <h2 className="w-full max-w-[80%] md:max-w-[60%] text-primaryGreen text-2xl md:text-3xl font-bold font-['Inter'] leading-10">
             Our Core Values
           </h2>
-          <div className="w-full max-w-[80%] md:max-w-[60%] mx-auto mt-[22px] flex flex-col gap-[22px]">
+          <div className="w-full max-w-[80%] md:max-w-[60%] mx-auto mt-[22px] flex flex-col gap-[25px]">
             {values.map((item, index) => (
               <div
                 key={index}
-                className="relative flex flex-col gap-3 md:gap-5"
+                className="relative flex flex-col gap-3 md:gap-3"
               >
-                <div className="hidden sm:flex absolute z-[1] -left-[100px] top-0 bg-[#b0bd8f] w-14 h-14 rounded-full"></div>
-                <h2 className="text-left text-zinc-400 text-2xl md:text-3xl font-bold font-['Inter'] md:leading-10">
+                <div className="hidden sm:flex absolute z-[1] -left-[100px] top-0 bg-secondaryGreen w-14 h-14 rounded-full"></div>
+                <h2 className="text-left text-secondaryGreen text-2xl md:text-3xl font-bold font-['Inter'] md:leading-10">
                   {item.heading}
                 </h2>
                 <p className="z-[2] relative opacity-80 text-black text-[14px] md:text-[17px] font-normal font-['Inter'] leading-loose">
                   {item.text}
                   {index !== values.length - 1 && (
                     <div className="hidden sm:flex absolute z-[2] -top-[20%] h-[162%] w-14 -left-[100px] flex-col items-center">
-                      <div className="w-2 h-2 rounded-full bg-[#B4B9B8]"></div>
-                      <div className="w-[1px] h-full bg-[#B4B9B8]"></div>
-                      <div className="w-2 h-2 rounded-full bg-[#B4B9B8]"></div>
+                      <div className="w-2 h-2 rounded-full bg-primaryGreen"></div>
+                      <div className="w-[1px] h-full bg-primaryGreen"></div>
+                      <div className="w-2 h-2 rounded-full bg-primaryGreen"></div>
                     </div>
                   )}
                 </p>

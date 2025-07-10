@@ -14,7 +14,7 @@ const News = () => {
               className="w-full h-[250px] md:h-[350px] lg:h-full rounded-[20px] md:rounded-[30px] object-cover"
             />
           </div>
-          <p className="w-full lg:max-w-[800px] text-justify justify-start text-black text-lg md:text-xl lg:text-[22px] font-light font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
+          <p className="w-full lg:max-w-[800px] text-justify justify-start text-black text-base md:text-lg lg:text-[20px] font-light font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
             Tergo Energy's Corporate Finance Division provides a wide range of
             services to a substantial and diversified client base that includes
             corporations, financial institutions, investment funds and
@@ -29,7 +29,7 @@ const News = () => {
             two main practices:
           </p>
         </div>
-        <p className="w-full mt-8 md:mt-10 text-justify justify-start text-black text-lg md:text-xl lg:text-2xl font-light font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
+        <p className="w-full mt-8 md:mt-10 text-justify justify-start text-black text-base md:text-lg lg:text-[20px] font-light font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
           Tergo Energy's Corporate Finance Division provides a wide range of
           services to a substantial and diversified client base that includes
           corporations, financial institutions, investment funds and

@@ -81,24 +81,24 @@ const MultigasSystems = () => {
       <Banner text="Multigas Systems Limited" />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
-        <div className="flex flex-col lg:flex-row gap-8 md:gap-12 mb-12 md:mb-20">
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-16 mb-12 md:mb-20">
           <img
             src="/images/multigasbusiness.jpg"
             alt="gas applications"
-            className="w-full lg:w-[43%] max-w-[685px] object-cover rounded-[20px] md:rounded-[30px]"
+            className="w-full lg:w-[40%] max-w-[685px] object-cover rounded-[20px] md:rounded-[30px]"
           />
           <div className="flex-1">
             <h3 className="text-ash-g-Color text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10">
               Multigas Systems Limited
             </h3>
-            <p className="max-w-[836px] mt-6 md:mt-12 lg:mt-[50px] text-ash-g-Color text-lg md:text-xl lg:text-[24px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[47px]">
+            <p className="max-w-[836px] mt-6 md:mt-12 lg:mt-[50px] text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[40px]">
               Our Gas Application services are designed to maximize the
               versatility and efficiency of gas systems across multiple sectors.
               Through Multigas Systems Limited, we offer customized solutions
               that span from heating and power generation to cooling and
               transportation applications.
             </p>
-            <p className="self-stretch mt-6 md:mt-10 text-ash-g-Color text-lg md:text-xl lg:text-[24px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[47px]">
+            <p className="self-stretch mt-6 md:mt-10 text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[47px]">
               At MULTIGAS, we are committed to delivering innovative, reliable,
               and efficient gas solutions across various industries. Whether you
               need gas infrastructure development or specialized gas application
@@ -180,14 +180,14 @@ const MultigasSystems = () => {
 
         {/* MULTIGAS Advantage Section */}
         <div className="w-full bg-primaryGreen flex flex-col xl:flex-row rounded-[25px] md:rounded-[50px] mb-12 md:mb-20">
-          <div className="py-12 md:py-16 lg:py-[100px] flex flex-col gap-6 md:gap-8 px-6 md:px-12 lg:pl-[90px] lg:pr-8 justify-center w-full xl:w-[40%]">
-            <h3 className="text-white text-2xl md:text-3xl font-bold font-['Poppins'] leading-tight md:leading-10">
+          <div className="py-12 md:py-16 lg:py-[80px] flex flex-col gap-6 md:gap-8 px-6 md:px-12 lg:pl-[90px] lg:pr-8 justify-center w-full xl:w-[40%]">
+            <h3 className="text-white text-xl md:text-2xl font-bold font-['Poppins'] leading-tight md:leading-8">
               The MULTIGAS Advantage
             </h3>
             {multgasAdvantages.map((advantage, index) => (
               <p
                 key={index}
-                className="relative py-1 max-w-96 text-white text-lg md:text-xl font-semibold font-['Poppins'] leading-relaxed md:leading-8"
+                className="relative py-1 max-w-96 text-white text-base md:text-lg font-semibold font-['Poppins'] leading-relaxed md:leading-8"
               >
                 {advantage}
                 {index === 0 && (
@@ -197,11 +197,11 @@ const MultigasSystems = () => {
             ))}
           </div>
 
-          <div className="w-full xl:w-[60%] max-w-[1020px] px-6 md:px-12 lg:px-20 py-12 md:py-24 lg:py-44 bg-white/90 rounded-[25px] md:rounded-[50px] flex flex-col gap-6 md:gap-8 lg:gap-10">
-            <div className="text-zinc-900 text-xl md:text-2xl lg:text-3xl font-medium font-['Poppins'] leading-tight md:leading-8 lg:leading-9">
+          <div className="w-full xl:w-[60%] max-w-[1020px] px-6 md:px-12 lg:px-20 py-12 md:py-24 lg:py-32 bg-white/90 rounded-[25px] md:rounded-[50px] flex flex-col gap-6 md:gap-8 lg:gap-10">
+            <div className="text-zinc-900 text-lg md:text-xl lg:text-2xl font-medium font-['Poppins'] leading-tight md:leading-8 lg:leading-9">
               Why Choose MULTIGAS?
             </div>
-            <div className="text-ash-g-Color text-base md:text-lg lg:text-xl font-normal font-['Inter'] leading-relaxed md:leading-8 lg:leading-10">
+            <div className="text-black text-sm md:text-base lg:text-lg font-normal font-['Inter'] leading-relaxed md:leading-6 lg:leading-8">
               From design and construction to ongoing maintenance, we ensure
               your gas systems are built to the highest industry standards. We
               provide industrial, commercial, and residential gas solutions,

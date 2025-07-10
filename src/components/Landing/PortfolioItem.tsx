@@ -35,20 +35,22 @@ const PortfolioItem: React.FC<{
       <div
         onMouseEnter={() => setIsItems(true)}
         onMouseLeave={() => setIsItems(false)}
-        className="h-full border rounded-[24px] bg-black/15 flex flex-col gap-2 justify-end px-3 md:px-4 py-4 md:py-[27px]"
+        className={`h-full border rounded-[24px]  flex flex-col  justify-end px-3 md:px-4 py-4 md:py-[27px] ${
+          isItems ? "bg-black/50 gap-10" : "bg-black/15 gap-2"
+        }`}
       >
-        <h4 className="justify-center text-white text-base md:text-lg lg:text-[22px] font-bold font-['Poppins'] leading-tight md:leading-7">
+        <h4 className="justify-center text-white text-base md:text-lg lg:text-[23px] font-bold font-['Poppins'] leading-tight md:leading-7">
           {text}
         </h4>
 
         <div
           className={`transition-all duration-300 ease-in-out overflow-hidden ${
             isItems
-              ? "max-h-40 opacity-100 transform translate-y-0"
+              ? "max-h-40  opacity-100 transform translate-y-0"
               : "max-h-0 opacity-0 transform translate-y-4"
           }`}
         >
-          <div className="flex flex-col gap-2">
+          <div className={`flex flex-col  ${isItems ? "gap-10" : "gap-2"}`}>
             <p className="text-white text-xs md:text-sm transition-opacity duration-300 ease-in-out">
               {desc}
             </p>
