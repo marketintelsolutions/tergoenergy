@@ -116,7 +116,7 @@ const MultigasSystems = () => {
               className="bg-white rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)]"
             >
               <div className="flex flex-col sm:flex-row items-start gap-6 md:gap-8">
-                <div className="w-16 h-16 md:w-20 md:h-20 bg-primaryGreen rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-16 h-16 md:w-20 md:h-20 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-2xl md:text-3xl">
                     {application.icon}
                   </span>

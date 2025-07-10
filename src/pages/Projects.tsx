@@ -83,7 +83,7 @@ const Projects = () => {
                 </div>
                 <div className="w-full lg:w-[55%] flex flex-col justify-center">
                   <div className="mb-4 flex flex-wrap gap-2">
-                    <span className="bg-primaryGreen text-white px-3 md:px-4 py-1 md:py-2 rounded-[15px] text-xs md:text-sm font-semibold">
+                    <span className="bg-green-600 text-white px-3 md:px-4 py-1 md:py-2 rounded-[15px] text-xs md:text-sm font-semibold">
                       {project.status}
                     </span>
                     <span className="bg-zinc-100 text-primaryGreen px-3 md:px-4 py-1 md:py-2 rounded-[15px] text-xs md:text-sm font-semibold">
@@ -122,7 +122,7 @@ const Projects = () => {
                 key={index}
                 className="bg-[#FAF6FF] rounded-[20px] p-4 md:p-6 text-center"
               >
-                <div className="w-10 h-10 md:w-12 md:h-12 bg-primaryGreen rounded-full mx-auto mb-3 md:mb-4 flex items-center justify-center">
+                <div className="w-10 h-10 md:w-12 md:h-12 bg-green-600 rounded-full mx-auto mb-3 md:mb-4 flex items-center justify-center">
                   <span className="text-white text-lg md:text-xl">⚡</span>
                 </div>
                 <h4 className="text-primaryGreen text-base md:text-lg font-bold font-['Inter'] leading-tight md:leading-6">
