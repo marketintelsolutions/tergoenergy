@@ -15,16 +15,16 @@ const Contact = () => {
         />
         <div className="w-full lg:max-w-[898px] bg-primaryGreen rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:px-[48px] flex flex-col justify-center">
           <div className="flex flex-col gap-4 md:gap-5">
-            <span className="text-white text-lg md:text-xl lg:text-2xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
+            <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
               E-mail: info@tergoenergy.com
             </span>
-            <span className="text-white text-lg md:text-xl lg:text-2xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
+            <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
               URL: https://tergoenergy.com
             </span>
-            <span className="text-white text-lg md:text-xl lg:text-2xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
+            <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
               Tel: +234 800 300 3000
             </span>
-            <span className="text-white text-lg md:text-xl lg:text-2xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
+            <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
               Address: 9 Elsie Femi Pearse, Off Adeola Odeku, Victoria Island,
               Lagos, Nigeria
             </span>
