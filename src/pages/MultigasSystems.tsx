@@ -79,7 +79,7 @@ const MultigasSystems = () => {
   return (
     <div className="bg-lightGreen pb-10 md:pb-20">
       <Banner text="Multigas Systems Limited" />
-      
+
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
         <div className="flex flex-col lg:flex-row gap-8 md:gap-16 mb-12 md:mb-20">
           <img

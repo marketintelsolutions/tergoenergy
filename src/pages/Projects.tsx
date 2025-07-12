@@ -45,7 +45,7 @@ const Projects = () => {
 
   return (
     <div className="bg-lightGreen pb-10 md:pb-20">
-      <Banner text="Our Projects" />
+      <Banner img={"projects"} text="Our Projects" />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
         {/* Introduction */}

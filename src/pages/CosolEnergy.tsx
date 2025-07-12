@@ -59,7 +59,11 @@ const CosolEnergy = () => {
 
   return (
     <div className="bg-lightGreen pb-10 md:pb-20">
-      <Banner text="COSOL Energy Solution Limited" />
+      <Banner
+        img={"banner3.jpg"}
+        text="COSOL Energy Solution Limited"
+        desc="Whether you're looking to power a small home, a large industrial facility, or anything in between, we design and implement systems that deliver sustainable energy tailored to your situation."
+      />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
         <div className="flex flex-col lg:flex-row gap-8 md:gap-16 mb-12 md:mb-20">

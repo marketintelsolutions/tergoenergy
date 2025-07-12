@@ -4,13 +4,13 @@ const Banner: React.FC<{
   img?: string | null;
   text: string;
   desc?: string;
-}> = ({ img = "projects", text, desc }) => {
+}> = ({ img = "projects.png", text, desc }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
     <section
       style={{
-        backgroundImage: `url(/images/${img}.png)`,
+        backgroundImage: `url(/images/${img})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
