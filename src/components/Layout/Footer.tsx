@@ -56,9 +56,10 @@ const Footer = () => {
         <div className="w-[90%] flex flex-col lg:flex-row justify-between gap-8 md:gap-12 lg:gap-[80px] max-w-[1200px] mx-auto">
           <div className="flex flex-col md:flex-row justify-between w-full lg:max-w-[65%] gap-8 md:gap-12">
             <div className="flex-1 min-w-0">
-              <h2 className="text-2xl md:text-3xl font-semibold">
-                <span className="text-white">TERGO</span> ENERGY
-              </h2>
+              <div className="w-full max-w-[200px]">
+                <img src="/whitelogo.svg" alt="whitelogo" className="w-full" />
+              </div>
+
               <p className="self-stretch mt-4 md:mt-[25px] opacity-80 justify-start text-white text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-loose tracking-tight">
                 E-mail: info@tergoenergy.com <br />
                 URL: https://tergoenergy.com <br />

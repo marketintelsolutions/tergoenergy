@@ -50,7 +50,10 @@ const NexusGas = () => {
 
   return (
     <div className="bg-lightGreen pb-10 md:pb-20">
-      <Banner text="Nexus Gas Trading Limited" />
+      <Banner
+        text="Nexus Gas Trading Limited"
+        desc="We offer Gas Supply Agreements (GSA's) tailored to suit your specific energy requirements, providing consistency and reliability for your business operations."
+      />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
         <div className="flex flex-col lg:flex-row gap-8 md:gap-16 mb-12 md:mb-20">

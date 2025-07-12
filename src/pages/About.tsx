@@ -5,16 +5,17 @@ import OurValues from "../components/About/OurValues";
 import OurPortfolio from "../components/Landing/OurPortfolio";
 import BringingItTogether from "../components/About/BringingItTogether";
 import OurTeam from "../components/About/OurTeam";
+import PoweringAfrica from "../components/Landing/PoweringAfrica";
 
 const About = () => {
   return (
     <div className="bg-[#C1FACC40] pb-[100px]">
-      <SharedBanner text="ABOUT" />
+      <SharedBanner img={"aboutbanner"} text="ABOUT" />
       <WhoWeAre />
       <OurValues />
       <OurPortfolio />
       <OurTeam />
-      <BringingItTogether />
+      <PoweringAfrica />
     </div>
   );
 };

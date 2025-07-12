@@ -5,7 +5,7 @@ import SharedBanner from "../components/Layout/SharedBanner";
 const Contact = () => {
   return (
     <div className="bg-[#C1FACC40] pb-12 md:pb-20 lg:pb-[100px]">
-      <SharedBanner text="CONTACT US" />
+      <SharedBanner img={"banner3"} text="CONTACT US" />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto mt-8 md:mt-12 lg:mt-[60px] flex flex-col lg:flex-row justify-between gap-8 md:gap-12">
         <img
