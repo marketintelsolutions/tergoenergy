@@ -31,7 +31,7 @@ const Banner: React.FC<{
           }`}
         >
           {desc ||
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum explicabo impedit sit repudiandae, unde iste in perspiciatis vitae neque?"}
+            "This is testing"}
         </p>
       </div>
     </section>
