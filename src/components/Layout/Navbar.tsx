@@ -180,7 +180,7 @@ const Navbar = () => {
             <div className="p-[5px] bg-primaryGreen rounded-full">
               <button className="bg-white text-green-600 flex gap-2 items-center rounded-full px-4 py-2 md:px-[30px] md:py-[10px]">
                 <p className="justify-start text-BHL-Color text-sm md:text-base font-semibold font-['Poppins']">
-                  Get Started
+                  <a href="/contact">Get Started</a>
                 </p>
                 <span>
                   <RxArrowTopRight size={20} className="md:size-[25px]" />

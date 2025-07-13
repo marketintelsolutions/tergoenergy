@@ -34,12 +34,13 @@ const PoweringAfrica = () => {
             Powering Africa's Energy Future
           </h1>
           <p className="mt-3 md:mt-5 justify-start text-white text-lg md:text-xl lg:text-2xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
+          We focus on delivering sustainable, efficient, and reliable energy to residential, commercial, and industrial consumers. <br/> <br/>
             Clean. Sustainable. Reliable.
           </p>
-
-          <Button className="mt-8 md:mt-16 lg:mt-[130px]" text="Learn More" />
+          <a href="/contact">
+          <Button className="mt-8 md:mt-16 lg:mt-[130px]" text="Learn More" /></a>
         </div>
-        <div className="w-full p-5 bg-primaryGreen rounded-[30px] h-[300px] sm:h-[400px] md:h-[500px] max-w-[300px] md:max-w-[400px] lg:max-w-[45%]">
+        <div className="w-full p-5 bg-primaryGrey rounded-[30px] h-[300px] sm:h-[400px] md:h-[500px] max-w-[300px] md:max-w-[400px] lg:max-w-[45%]">
           <img
             src={`/images/${images[activeIndex]}`}
             // src={`/images/bringingtogetherimg.png`}

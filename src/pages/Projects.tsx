@@ -45,7 +45,7 @@ const Projects = () => {
 
   return (
     <div className="bg-lightGreen pb-10 md:pb-20">
-      <Banner img={"projects"} text="Our Projects" />
+      <Banner img={"projects.png"} text="Our Projects" />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
         {/* Introduction */}
@@ -114,7 +114,7 @@ const Projects = () => {
           </h3>
           <p className="text-ash-g-Color text-lg md:text-xl font-normal font-['Inter'] leading-relaxed md:leading-[32px] mb-8 md:mb-10 text-center">
             We deliver comprehensive energy solutions across multiple sectors
-            and applications
+            and applications.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {serviceAreas.map((area, index) => (

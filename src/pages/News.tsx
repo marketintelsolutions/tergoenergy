@@ -4,7 +4,7 @@ import SharedBanner from "../components/Layout/SharedBanner";
 const News = () => {
   return (
     <div className="bg-[#C1FACC40] pb-12 md:pb-20 lg:pb-[100px]">
-      <SharedBanner img={"banner2"} text="NEWS" />
+      <SharedBanner img={"news"} text="NEWS" />
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto">
         <div className="flex flex-col lg:flex-row gap-8 md:gap-10 mt-8 md:mt-12 lg:mt-[60px] justify-between">
           <div className="w-full lg:max-w-[685px]">
