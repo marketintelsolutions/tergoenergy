@@ -52,7 +52,7 @@ const Banner = () => {
           <h1 className="max-w-[873px] justify-start text-neutral-100 text-2xl md:text-4xl lg:text-5xl xl:text-[58px] font-semibold font-['Poppins'] leading-tight md:leading-[1.2] lg:leading-[1.3] xl:leading-[90.60px]">
             {carousel[activeIndex].heading}
           </h1>
-          <p className="max-w-[855px] justify-start text-zinc-400 text-base md:text-lg lg:text-xl xl:text-[24px] font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-9 xl:leading-10">
+          <p className="max-w-[855px] justify-start text-zinc-200 text-base md:text-lg lg:text-xl xl:text-[24px] font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-9 xl:leading-10">
             {carousel[activeIndex].text}
           </p>
           <div className="mt-6 md:mt-8 lg:mt-12">

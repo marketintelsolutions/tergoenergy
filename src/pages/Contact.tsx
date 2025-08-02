@@ -16,7 +16,7 @@ const Contact = () => {
           className="w-full lg:max-w-[655px] h-[250px] md:h-[350px] lg:h-auto object-cover rounded-[20px] md:rounded-[30px]"
         />
         <div className="w-full lg:max-w-[898px] bg-primaryGreen rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:px-[48px] flex flex-col justify-center">
-          <div className="flex flex-col gap-4 md:gap-5">
+          <div className="flex flex-col gap-4 md:gap-8">
             <div className="flex items-center gap-3">
               <span>
                 <IoMail color="green" size={30} />
@@ -27,16 +27,7 @@ const Contact = () => {
                 </span>
               </a>
             </div>
-            <div className="flex items-center gap-3">
-              <span>
-                <IoGlobeOutline color="green" size={30} />
-              </span>
-              <a href="https://tergoenergy.com" target="_blank">
-                <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
-                  https://tergoenergy.com
-                </span>
-              </a>
-            </div>
+
             <div className="flex items-center gap-3">
               <span>
                 <FaPhone color="green" size={30} />

@@ -27,9 +27,9 @@ const WhoWeAre = () => {
             Established in 2020, Tergo Energy Limited is a leading indigenous
             energy company dedicated to the responsible development of natural
             energy resources across Nigeria and Africa. As a proud member of the
-            Nigerian Gas Association, we are committed to addressing Africa's
-            energy challenges by delivering clean, sustainable, and innovative
-            energy solutions.
+            Nigerian Gas Association, REAN, NLCGA, NGA, LCCI, we are committed
+            to addressing Africa's energy challenges by delivering clean,
+            sustainable, and innovative energy solutions.
             <br />
             <br />
             Leveraging our multidisciplinary technical expertise, we focus on
@@ -43,12 +43,6 @@ const WhoWeAre = () => {
         </div>
       </div>
       <p className="w-full max-w-[1596px] mt-8 md:mt-12 lg:mt-[50px] text-justify justify-start text-black text-base md:text-lg lg:text-[20px] font-normal font-['Poppins'] leading-relaxed md:leading-8 lg:leading-[35.68px]">
-        Our success is built on our core values of Services, Professionalism,
-        Integrity, Respect, Innovation, and Team Spirit. These principles put
-        our clients at the center of everything we do and drive the level of
-        professionalism that permeates throughout our organization.
-        <br />
-        <br />
         We provide world-class energy solutions through our three portfolio
         companies: COSOL Energy Solution Limited driving renewable energy
         solutions, Nexus Gas Trading Limited delivering high-quality gas

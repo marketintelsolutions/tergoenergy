@@ -40,8 +40,8 @@ const boardMembers = [
   },
   {
     name: "Isioma Martins",
-    role: "General Manager",
-    image: "isioma.jpg",
+    role: "Director",
+    image: "teammember.png",
     bio:
       "Isioma Martins boasts over 12 years of rich experience in the gas and energy industry, specializing in LPG systems, equipment, and applications. Her fervent advocacy for clean technology, environmental sustainability, and innovation drives her dedication to transitioning towards renewable energy sources. Equipped with a master's degree from Imperial College London, Isioma's expertise lies at the intersection of engineering and business management. She has spearheaded numerous projects, from conception to execution, focusing on the design, implementation, and optimization of LPG systems across industrial, commercial, and residential sectors. Her comprehensive knowledge spans storage facilities, reticulation systems, and stringent safety protocols. Isioma's career showcases exceptional problem-solving skills, meticulous attention to detail, and an unwavering commitment to delivering top-tier results. Currently serving as the General Manager of Tergo Energy Limited, a subsidiary of Pan African Capital Holdings and a company that is committed to the utilization of gas and renewable energy, Isioma plays a pivotal role in driving the strategic direction, operational excellence, and sustainable growth of the company, while ensuring alignment with industry best practices and regulatory requirements. Her leadership ethos extends beyond technical prowess to encompass advocacy and policy development. As a dedicated member of the NLPGA Safety and Technical Committee and NLPGA Safety and Technical Curriculum Development Committee, Isioma contributes significantly to shaping industry standards and advocating for best practices in safety and technical training. Her impact reverberates through her past involvement in the Advocacy and Technical subcommittees of the Lagos State LPG reforms committee. In her capacity as Treasurer and chair for the Online Programs Committee at Women in LPG Nigeria, Isioma collaborates with fellow impassioned women to foster empowerment through mentorship, training, and advocacy endeavors. Her dedication to fostering gender diversity and inclusion in the energy sector extends to her membership in WIEN (Women in Energy Network). Driven by an unwavering commitment to effecting positive change and leaving an indelible mark, Isioma continues to champion sustainability, innovation, and empowerment within the gas and energy industry and beyond.",
   },
@@ -51,7 +51,7 @@ const OurTeam = () => {
   const [selectedMember, setSelectedMember] = useState<any>();
 
   return (
-    <section className="py-12 md:py-20 lg:py-[120px]">
+    <section className="border py-12 md:py-20 lg:py-[120px]">
       <h3 className="justify-start text-primaryGreen text-center mt-12 md:mt-20 lg:mt-[95px] text-3xl md:text-4xl lg:text-5xl font-semibold font-['Poppins'] leading-tight md:leading-[1.2] lg:leading-[105px]">
         Leadership Team
       </h3>
@@ -61,7 +61,7 @@ const OurTeam = () => {
         advancing Africa's clean energy transition.
       </p>
       <div className="rounded-[25px] md:rounded-[50px] py-8 md:py-12 lg:py-[70px] px-4 md:px-8 lg:px-[80px] shadow-[0px_69px_114px_rgba(58,64,58,0.08)]">
-        <div className="mt-16 md:mt-32 lg:mt-[207px] w-[95%] xl:w-[90%] max-w-[1300px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-32 md:gap-y-48 lg:gap-y-[284px] gap-6 md:gap-8 lg:gap-[50px] items-center mx-auto">
+        <div className="mt-16 md:mt-32 lg:mt-[207px] w-[95%] xl:w-[95%] max-w-[1400px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-32 md:gap-y-48 lg:gap-y-[4px] gap-6 md:gap-8 lg:gap-[50px] items-center mx-auto">
           {boardMembers.map((member, index) => (
             <TeamItem
               key={index}

@@ -30,7 +30,7 @@ body {
   background: linear-gradient(
     to right,
     rgb(255, 255, 255),
-    rgba(255, 255, 255, 0.2)
+    rgba(255, 255, 255, 0.05)
   );
   mask: linear-gradient(#000 0 0) exclude, linear-gradient(#000 0 0) content-box;
 }

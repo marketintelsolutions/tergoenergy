@@ -3,6 +3,7 @@ import SharedBanner from "../components/Layout/SharedBanner";
 import Banner from "../components/OurBusinesses/Banner";
 import BringingItTogether from "../components/Landing/BringingItTogether";
 import OurPortfolio from "../components/Landing/OurPortfolio";
+import { Link } from "react-router-dom";
 
 const NexusGas = () => {
   const gasServices = [
@@ -65,7 +66,7 @@ const NexusGas = () => {
             className="w-full lg:w-[40%] max-w-[685px] object-cover rounded-[20px] md:rounded-[30px]"
           />
           <div className="flex-1">
-            <h3 className="text-ash-g-Color text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10">
+            <h3 className="text-nexusbg-nexusBlue text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10">
               Nexus Gas Trading Limited
             </h3>
             <p className="max-w-[836px] mt-6 md:mt-12 lg:mt-[50px] text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[47px]">
@@ -92,7 +93,7 @@ const NexusGas = () => {
               key={index}
               className="bg-white rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)]"
             >
-              <h3 className="text-primaryGreen text-xl md:text-2xl lg:text-3xl font-bold font-['Inter'] leading-tight md:leading-8 lg:leading-10 mb-4 md:mb-6">
+              <h3 className="text-nexusbg-nexusBlue text-xl md:text-2xl lg:text-3xl font-bold font-['Inter'] leading-tight md:leading-8 lg:leading-10 mb-4 md:mb-6">
                 {service.title}
               </h3>
               <p className="text-ash-g-Color text-base md:text-lg lg:text-xl font-normal font-['Inter'] leading-relaxed md:leading-7 lg:leading-[32px] mb-6 md:mb-8">
@@ -101,7 +102,7 @@ const NexusGas = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 {service.items.map((item, idx) => (
                   <div key={idx} className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-primaryGreen rounded-full mt-2 md:mt-3 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-nexusBlue rounded-full mt-2 md:mt-3 flex-shrink-0"></div>
                     <span className="text-ash-g-Color text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
                       {item}
                     </span>
@@ -113,7 +114,7 @@ const NexusGas = () => {
         </div>
 
         {/* Advantages Section */}
-        <div className="w-full mt-12 md:mt-20 bg-primaryGreen flex flex-col xl:flex-row rounded-[25px] md:rounded-[50px]">
+        <div className="w-full mt-12 md:mt-20 bg-nexusBlue flex flex-col xl:flex-row rounded-[25px] md:rounded-[50px]">
           <div className="py-12 md:py-16 lg:py-[80px] flex flex-col gap-6 md:gap-8 px-6 md:px-12 lg:pl-[90px] lg:pr-8 justify-center w-full xl:w-[40%]">
             <h3 className="text-white text-xl md:text-2xl font-bold font-['Poppins'] leading-tight md:leading-10">
               The Nexus Gas Advantage
@@ -144,6 +145,21 @@ const NexusGas = () => {
               price volatility.
             </div>
           </div>
+        </div>
+
+        <div className="text-center mt-20">
+          <h3 className="text-primaryGreen text-2xl md:text-3xl lg:text-4xl font-bold font-['Poppins'] leading-tight md:leading-[1.2] lg:leading-[48px] mb-4 md:mb-6">
+            Get Started Today!
+          </h3>
+          <p className="text-ash-g-Color text-lg md:text-xl font-normal font-['Inter'] leading-relaxed md:leading-[32px] mb-8 md:mb-10">
+            Contact us today for a consultation and take the first step toward a
+            greener, cost-effective energy future.
+          </p>
+          <Link to={"/contact"}>
+            <button className="bg-nexusBlue text-white px-8 md:px-12 py-3 md:py-4 rounded-[15px] text-lg md:text-xl font-semibold font-['Poppins'] hover:bg-nexusBlue/80 transition-colors">
+              Contact Nexus Gas
+            </button>
+          </Link>
         </div>
       </div>
       <OurPortfolio />

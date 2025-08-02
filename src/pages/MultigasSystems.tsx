@@ -88,7 +88,7 @@ const MultigasSystems = () => {
             className="w-full lg:w-[40%] max-w-[685px] object-cover rounded-[20px] md:rounded-[30px]"
           />
           <div className="flex-1">
-            <h3 className="text-ash-g-Color text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10">
+            <h3 className="text-multigasGreen text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10">
               Multigas Systems Limited
             </h3>
             <p className="max-w-[836px] mt-6 md:mt-12 lg:mt-[50px] text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[40px]">
@@ -116,7 +116,7 @@ const MultigasSystems = () => {
               className="bg-white rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)]"
             >
               <div className="flex flex-col sm:flex-row items-start gap-6 md:gap-8">
-                <div className="w-16 h-16 md:w-20 md:h-20 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-16 h-16 md:w-20 md:h-20 bg-multigasGreen rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-2xl md:text-3xl">
                     {application.icon}
                   </span>
@@ -131,7 +131,7 @@ const MultigasSystems = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                     {application.applications.map((app, idx) => (
                       <div key={idx} className="flex items-center gap-3">
-                        <div className="w-2 h-2 bg-primaryGreen rounded-full flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-multigasGreen rounded-full flex-shrink-0"></div>
                         <span className="text-ash-g-Color text-sm md:text-base lg:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
                           {app}
                         </span>
@@ -179,7 +179,7 @@ const MultigasSystems = () => {
         </div>
 
         {/* MULTIGAS Advantage Section */}
-        <div className="w-full bg-primaryGreen flex flex-col xl:flex-row rounded-[25px] md:rounded-[50px] mb-12 md:mb-20">
+        <div className="w-full bg-multigasGreen flex flex-col xl:flex-row rounded-[25px] md:rounded-[50px] mb-12 md:mb-20">
           <div className="py-12 md:py-16 lg:py-[80px] flex flex-col gap-6 md:gap-8 px-6 md:px-12 lg:pl-[90px] lg:pr-8 justify-center w-full xl:w-[40%]">
             <h3 className="text-white text-xl md:text-2xl font-bold font-['Poppins'] leading-tight md:leading-8">
               The MULTIGAS Advantage
@@ -222,7 +222,7 @@ const MultigasSystems = () => {
             Partner with MULTIGAS for a seamless, efficient, and future-ready
             gas infrastructure.
           </p>
-          <button className="bg-primaryGreen text-white px-8 md:px-12 py-3 md:py-4 rounded-[15px] text-lg md:text-xl font-semibold font-['Poppins'] hover:bg-primaryGreen/90 transition-colors">
+          <button className="bg-multigasGreen text-white px-8 md:px-12 py-3 md:py-4 rounded-[15px] text-lg md:text-xl font-semibold font-['Poppins'] hover:bg-multigasGreen/90 transition-colors">
             Contact MULTIGAS Today
           </button>
         </div>

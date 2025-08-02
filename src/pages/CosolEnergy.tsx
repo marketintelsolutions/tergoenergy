@@ -2,6 +2,7 @@ import React from "react";
 import BringingItTogether from "../components/Landing/BringingItTogether";
 import Banner from "../components/OurBusinesses/Banner";
 import OurPortfolio from "../components/Landing/OurPortfolio";
+import { Link } from "react-router-dom";
 
 const CosolEnergy = () => {
   const renewableServices = [
@@ -73,7 +74,7 @@ const CosolEnergy = () => {
             className="w-full lg:w-[40%] max-w-[685px] object-cover rounded-[20px] md:rounded-[30px]"
           />
           <div className="flex-1">
-            <h3 className="text-ash-g-Color text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10">
+            <h3 className="text-cosolYellow text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10">
               COSOL Energy Solution Limited
             </h3>
             <p className="max-w-[836px] mt-6 md:mt-12 lg:mt-[50px] text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[47px]">
@@ -102,7 +103,7 @@ const CosolEnergy = () => {
               <div className="w-12 h-12 md:w-16 md:h-16 bg-primaryGreen rounded-full flex items-center justify-center mb-4 md:mb-6">
                 <span className="text-white text-xl md:text-2xl">⚡</span>
               </div>
-              <h3 className="text-primaryGreen text-lg md:text-xl font-bold font-['Inter'] leading-tight md:leading-8 mb-3 md:mb-4">
+              <h3 className="text-cosolYellow text-lg md:text-xl font-bold font-['Inter'] leading-tight md:leading-8 mb-3 md:mb-4">
                 {service.title}
               </h3>
               <p className="text-ash-g-Color text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
@@ -124,7 +125,7 @@ const CosolEnergy = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {projectServices.map((service, index) => (
               <div key={index} className="flex items-start gap-4">
-                <div className="w-3 h-3 bg-primaryGreen rounded-full mt-2 flex-shrink-0"></div>
+                <div className="w-3 h-3 bg-cosolYellow rounded-full mt-2 flex-shrink-0"></div>
                 <span className="text-ash-g-Color text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
                   {service}
                 </span>
@@ -134,7 +135,7 @@ const CosolEnergy = () => {
         </div>
 
         {/* COSOL Advantage Section */}
-        <div className="w-full bg-primaryGreen flex flex-col xl:flex-row rounded-[25px] md:rounded-[50px] mb-12 md:mb-20">
+        <div className="w-full bg-cosolYellow flex flex-col xl:flex-row rounded-[25px] md:rounded-[50px] mb-12 md:mb-20">
           <div className="py-12 md:py-16 lg:py-[60px] flex flex-col gap-6 md:gap-8 px-6 md:px-12 lg:pl-[90px] lg:pr-8 justify-center w-full xl:w-[40%]">
             <h3 className="text-white text-xl md:text-2xl font-bold font-['Poppins'] leading-tight md:leading-10">
               The COSOL Advantage
@@ -178,9 +179,11 @@ const CosolEnergy = () => {
             Contact us today for a consultation and take the first step toward a
             greener, cost-effective energy future.
           </p>
-          <button className="bg-primaryGreen text-white px-8 md:px-12 py-3 md:py-4 rounded-[15px] text-lg md:text-xl font-semibold font-['Poppins'] hover:bg-primaryGreen/90 transition-colors">
-            Contact COSOL Energy
-          </button>
+          <Link to={"/contact"}>
+            <button className="bg-cosolYellow text-white px-8 md:px-12 py-3 md:py-4 rounded-[15px] text-lg md:text-xl font-semibold font-['Poppins'] hover:bg-cosolYellow/90 transition-colors">
+              Contact COSOL Energy
+            </button>
+          </Link>
         </div>
       </div>
 

@@ -11,7 +11,10 @@ module.exports = {
         secondaryGreen: '#3bb44a', //rgb(59,180,74) 
         secondaryBlack: '#000',
         lightGreen: '#E1FFE640',
-        primaryGrey: '#A7A8A7'
+        primaryGrey: '#A7A8A7',
+        nexusBlue: '#056cf2',
+        cosolYellow: '#f0bc1d',
+        multigasGreen: '#3cb64b'
       },
       screens: {
         zr: "0px",

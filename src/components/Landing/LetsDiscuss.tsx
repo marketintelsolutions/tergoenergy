@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const LetsDiscuss = () => {
   return (
@@ -14,13 +15,11 @@ const LetsDiscuss = () => {
           </h3>
           <div className="w-20 md:w-24 h-[3px] mt-8 md:mt-12 lg:mt-20 bg-gradient-to-l from-zinc-400 to-violet-50/30 rounded-full" />
 
-          <div className="flex gap-[22px] mt-12 md:mt-16 lg:mt-[237px] text-primaryGreen items-center">
+          <div className="flex gap-[22px] mt-8 md:mt-12 lg:mt-20 text-primaryGreen items-center">
             <span>
               <FaFacebookF />
             </span>
-            <span>
-              <FaXTwitter />
-            </span>
+
             <span>
               <FaLinkedin />
             </span>
@@ -29,15 +28,17 @@ const LetsDiscuss = () => {
             </span>
           </div>
 
-          <button className="rounded-[15px] border-2 border-primaryGreen py-3 md:py-4 lg:py-[18px] w-full max-w-[285px] mt-6 md:mt-8 lg:mt-10">
-            <span className="text-center justify-start text-BHL-Color text-lg md:text-xl font-normal font-['Poppins']">
-              Contact Us
-            </span>
-          </button>
+          <Link to={"/contact"}>
+            <button className="rounded-[15px] border-2 border-primaryGreen py-3 md:py-4 lg:py-[18px] w-full max-w-[285px] mt-6 md:mt-8 lg:mt-10">
+              <span className="text-center justify-start text-BHL-Color text-lg md:text-xl font-normal font-['Poppins']">
+                Contact Us
+              </span>
+            </button>
+          </Link>
         </div>
         <div className="w-full lg:max-w-[45%]">
           <p className="justify-start text-black text-lg md:text-xl font-normal font-['Product_Sans'] leading-relaxed md:leading-7 tracking-wide">
-            Or you can also contact us here
+            You can also drop a message here for us
           </p>
 
           <form className="mt-4 md:mt-5 flex flex-col gap-3 md:gap-2">

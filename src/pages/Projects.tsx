@@ -9,7 +9,7 @@ import Button from "../components/ui/Button";
 const Projects = () => {
   const projects = [
     {
-      title: "Pan African Capital Holdings Number 09 Annex",
+      title: "PanAfrican Capital Holdings Number 09 Annex",
       category: "Commercial Solar Installation",
       description:
         "Comprehensive renewable energy solution for corporate headquarters featuring advanced solar panel systems and energy storage solutions.",
@@ -17,7 +17,7 @@ const Projects = () => {
       status: "Completed",
     },
     {
-      title: "PACH Head Office",
+      title: "PanAfrican Capital Holdings Head Office",
       category: "Energy Infrastructure",
       description:
         "Complete energy infrastructure development including gas supply systems and renewable energy integration for efficient operations.",
@@ -81,7 +81,7 @@ const Projects = () => {
                     className="w-full h-[200px] md:h-[250px] lg:h-[300px] object-cover rounded-[15px] md:rounded-[20px]"
                   />
                 </div>
-                <div className="w-full lg:w-[55%] flex flex-col justify-center">
+                <div className="w-full lg:w-[55%] flex flex-col justify-start">
                   <div className="mb-4 flex flex-wrap gap-2">
                     <span className="bg-green-600 text-white px-3 md:px-4 py-1 md:py-2 rounded-[15px] text-xs md:text-sm font-semibold">
                       {project.status}
@@ -96,11 +96,11 @@ const Projects = () => {
                   <p className="text-ash-g-Color text-base md:text-lg lg:text-xl font-normal font-['Inter'] leading-relaxed md:leading-7 lg:leading-[32px] mb-6 md:mb-8">
                     {project.description}
                   </p>
-                  <Button
+                  {/* <Button
                     width="auto"
                     className="max-w-[260px]"
                     text="View Project Details"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
