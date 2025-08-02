@@ -106,7 +106,7 @@ const Footer = () => {
             <h4 className="self-stretch justify-start text-white text-xl md:text-2xl font-semibold font-['Poppins'] leading-normal">
               Get The Latest Updates
             </h4>
-            <div className="mt-4 md:mt-[26px] flex flex-col sm:flex-row gap-2 sm:gap-0">
+            <div className="mt-4 md:mt-[26px] flex flex-wrap flex-col sm:flex-row gap-2 sm:gap-0">
               <input
                 placeholder="Email Address"
                 type="text"

@@ -5,13 +5,14 @@ import { Link } from "react-router-dom";
 
 const LetsDiscuss = () => {
   return (
-    <div className="bg-white mt-10 md:mt-20 py-12 md:py-20 lg:py-[80px] shadow-[0px_69px_114px_rgba(131,128,135,0.08)] rounded-[20px] w-[95%] md:w-[80%] mx-auto max-w-[1410px]">
+    <div
+      id="discuss"
+      className="bg-white mt-10 md:mt-20 py-12 md:py-20 lg:py-[80px] shadow-[0px_69px_114px_rgba(131,128,135,0.08)] rounded-[20px] w-[95%] md:w-[80%] mx-auto max-w-[1410px]"
+    >
       <div className="w-[90%] md:w-[85%] mx-auto flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-[70px] items-start justify-between">
         <div className="w-full lg:max-w-[50%]">
           <h3 className="justify-start text-black text-2xl md:text-3xl lg:text-4xl font-semibold font-['Poppins'] leading-tight md:leading-[1.2] lg:leading-[54.47px]">
-            Let us discuss your
-            <br />
-            Finance strategy!
+            Discuss your energy needs with us
           </h3>
           <div className="w-20 md:w-24 h-[3px] mt-8 md:mt-12 lg:mt-20 bg-gradient-to-l from-zinc-400 to-violet-50/30 rounded-full" />
 

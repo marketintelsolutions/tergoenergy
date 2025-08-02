@@ -51,17 +51,17 @@ const OurTeam = () => {
   const [selectedMember, setSelectedMember] = useState<any>();
 
   return (
-    <section className="border py-12 md:py-20 lg:py-[120px]">
+    <section className=" py-12 md:py-20 lg:py-[120px]">
       <h3 className="justify-start text-primaryGreen text-center mt-12 md:mt-20 lg:mt-[95px] text-3xl md:text-4xl lg:text-5xl font-semibold font-['Poppins'] leading-tight md:leading-[1.2] lg:leading-[105px]">
         Leadership Team
       </h3>
-      <p className="mt-2 md:mt-3 lg:mt-4 w-[95%] md:w-[85%] mx-auto max-w-[1600px] opacity-80 text-center justify-start text-black text-base md:text-lg lg:text-xl font-normal font-['Poppins'] leading-relaxed md:leading-7">
+      <p className="mt-2  md:mt-3 lg:mt-4 w-[95%] md:w-[85%] mx-auto max-w-[1600px] opacity-80 text-center justify-start text-black text-base md:text-lg lg:text-xl font-normal font-['Poppins'] leading-relaxed md:leading-7">
         Our leadership team brings together diverse expertise in energy,
         finance, and strategic management to drive Tergo Energy's mission of
         advancing Africa's clean energy transition.
       </p>
-      <div className="rounded-[25px] md:rounded-[50px] py-8 md:py-12 lg:py-[70px] px-4 md:px-8 lg:px-[80px] shadow-[0px_69px_114px_rgba(58,64,58,0.08)]">
-        <div className="mt-16 md:mt-32 lg:mt-[207px] w-[95%] xl:w-[95%] max-w-[1400px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-32 md:gap-y-48 lg:gap-y-[4px] gap-6 md:gap-8 lg:gap-[50px] items-center mx-auto">
+      <div className="rounded-[25px] md:rounded-[50px] pb-8 md:pb-12 lg:pb-[70px] px-4 md:px-8 lg:px-[80px] shadow-[0px_69px_114px_rgba(58,64,58,0.08)]">
+        <div className=" w-[95%] xl:w-[95%] max-w-[1400px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-0 md:gap-y-0 lg:gap-y-[4px] gap-6 md:gap-8 lg:gap-[50px] items-center mx-auto">
           {boardMembers.map((member, index) => (
             <TeamItem
               key={index}
