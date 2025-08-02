@@ -133,14 +133,14 @@ const Navbar = () => {
                     </span>
 
                     {isDropdown && (
-                      <div className="navdropdown absolute top-[125%] min-w-full w-max rounded-[20px] p-[1px] bg-gradient-to-tr from-[#FFFFFF]/20 via-primaryGrey/10 to-primaryGrey/10">
+                      <div className="navdropdown absolute top-[125%] min-w-full w-max rounded-[20px] p-[1px] bg-gradient-to-tr from-[#FFFFFF]/30 via-primaryGrey/95 to-primaryGrey/75">
                         <div className="flex flex-col gap-4 rounded-[20px] backdrop-blur-[5px] py-5 px-4">
                           {item.items.map((subItem, subIndex) => (
                             <Link
                               key={subIndex}
                               onClick={() => setIsDropdown(false)}
                               to={subItem.path}
-                              className="justify-start border-b border-[#BDBDBD] text-gray-300 pb-1 text-sm font-semibold font-['Poppins'] underline"
+                              className="justify-start border-b border-[#BDBDBD] text-primaryGreen pb-1 text-sm font-semibold font-['Poppins'] underline"
                             >
                               {subItem.text}
                             </Link>
@@ -176,7 +176,10 @@ const Navbar = () => {
           </button>
 
           {/* Get Started Button */}
-          <div className="p-[2px] bg-gradient-to-tr transition-all transition-discrete duration-100 ease-out delay-75 hover:from-[#C9C9C900] from-[#FFFFFF] rounded-full to-[#C9C9C900] hover:to-[#FFFFFF]">
+          <Link
+            to={"/contact"}
+            className="p-[2px] bg-gradient-to-tr transition-all transition-discrete duration-100 ease-out delay-75 hover:from-[#C9C9C900] from-[#FFFFFF] rounded-full to-[#C9C9C900] hover:to-[#FFFFFF]"
+          >
             <div className="p-[5px] bg-primaryGreen rounded-full">
               <button className="bg-white text-green-600 flex gap-2 items-center rounded-full px-4 py-2 md:px-[30px] md:py-[10px]">
                 <p className="justify-start text-BHL-Color text-sm md:text-base font-semibold font-['Poppins']">
@@ -187,7 +190,7 @@ const Navbar = () => {
                 </span>
               </button>
             </div>
-          </div>
+          </Link>
         </div>
 
         {/* Mobile Menu */}

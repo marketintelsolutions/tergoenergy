@@ -10,6 +10,7 @@ import CosolEnergy from "./pages/CosolEnergy";
 import MultigasSystems from "./pages/MultigasSystems";
 import Projects from "./pages/Projects";
 import BglSecurities from "./pages/BglSecurities";
+import NewsAdmin from "./pages/Admin";
 
 function App() {
   const router = createBrowserRouter([
@@ -82,6 +83,14 @@ function App() {
       element: (
         <MainLayout>
           <Contact />
+        </MainLayout>
+      ),
+    },
+    {
+      path: "/admin",
+      element: (
+        <MainLayout>
+          <NewsAdmin />
         </MainLayout>
       ),
     },

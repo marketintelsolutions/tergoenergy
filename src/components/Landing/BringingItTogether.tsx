@@ -11,7 +11,7 @@ const BringingItTogether = () => {
       <PoweringAfrica />
       <OurPortfolio />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
     </section>
   );
 };

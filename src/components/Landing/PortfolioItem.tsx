@@ -8,7 +8,8 @@ const PortfolioItem: React.FC<{
   text: string;
   link: string;
   desc: string;
-}> = ({ img, icon, text, link, desc }) => {
+  color: string;
+}> = ({ img, icon, text, link, desc, color }) => {
   const [isItems, setIsItems] = useState(false);
 
   const { pathname } = window.location;
@@ -39,7 +40,10 @@ const PortfolioItem: React.FC<{
           isItems ? "bg-black/50 gap-10" : "bg-black/15 gap-2"
         }`}
       >
-        <h4 className="justify-center text-white text-base md:text-lg lg:text-[23px] font-bold font-['Poppins'] leading-tight md:leading-7">
+        <h4
+          style={{ color }}
+          className="justify-center text-white text-base md:text-lg lg:text-[23px] font-bold font-['Poppins'] leading-tight md:leading-7"
+        >
           {text}
         </h4>
 
@@ -55,7 +59,10 @@ const PortfolioItem: React.FC<{
               {desc}
             </p>
             <Link to={link}>
-              <button className="p-2 md:p-3 bg-secondaryGreen rounded-full w-fit text-white transition-all duration-300 ease-in-out hover:bg-secondaryGreen/80 transform hover:scale-105">
+              <button
+                style={{ backgroundColor: color }}
+                className="p-2 md:p-3  rounded-full w-fit text-white transition-all duration-300 ease-in-out hover:bg-secondaryGreen/80 transform hover:scale-105"
+              >
                 <span>
                   <FaChevronRight className="text-sm md:text-base" />
                 </span>

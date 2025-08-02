@@ -3,12 +3,12 @@ import React from "react";
 const TeamItem: React.FC<any> = ({ name, role, image, onReadMore }) => {
   return (
     <div className="relative">
-      <div className="absolute w-full h-1/2 rounded-full">
-        <div className="-translate-y-1/2 w-full p-2 md:p-4 rounded-full  border-2 md:border-4 border-primaryGreen">
+      <div className=" w-full h-1/2 rounded-full">
+        <div className="translate-y-[40%] w-full p-2 md:p-4 rounded-full  border-2 md:border-4 border-primaryGreen">
           <img
             src={`/images/${image}`}
             alt={name}
-            className="w-20 h-20 md:w-24 md:h-24 lg:w-full lg:min-h-[320px]  rounded-full object-cover"
+            className="w-20  md:w-24 lg:w-full h-full  rounded-full object-cover"
           />
         </div>
       </div>

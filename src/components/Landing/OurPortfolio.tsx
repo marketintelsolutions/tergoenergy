@@ -9,6 +9,7 @@ const portfolio = [
     desc:
       "Our seamless supply chain ensures you always have the energy you need to keep your operations running smoothly.",
     link: "/our-businesses/nexus-gas",
+    color: "#056cf2",
   },
   {
     img: "cosolbusiness",
@@ -17,6 +18,7 @@ const portfolio = [
     desc:
       "We specialize in developing customized renewable energy solutions that cater specifically to your requirements. ",
     link: "/our-businesses/cosol-energy",
+    color: "#f0bc1d",
   },
   {
     img: "multigasbusiness",
@@ -25,6 +27,7 @@ const portfolio = [
     desc:
       "We are committed to delivering innovative, reliable, and efficient gas solutions across various industries.",
     link: "/our-businesses/multigas-systems",
+    color: "#3cb64b",
   },
 ];
 

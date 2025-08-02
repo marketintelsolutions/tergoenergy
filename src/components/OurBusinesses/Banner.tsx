@@ -15,11 +15,12 @@ const Banner: React.FC<{
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="w-[95%] md:w-[85%] mx-auto max-w-[1600px] flex items-end justify-start px-6 md:px-12 lg:px-[50px] pb-12 md:pb-20 lg:pb-[100px] rounded-[25px] md:rounded-[50px] h-[400px] md:h-[600px] lg:h-[935px] max-h-[80lvh]"
+      className="relative w-[95%] md:w-[85%] mx-auto max-w-[1600px] flex items-end justify-start px-6 md:px-12 lg:px-[50px] pb-12 md:pb-20 lg:pb-[100px] overflow-hidden rounded-[25px] md:rounded-[50px] h-[400px] md:h-[600px] lg:h-[935px] max-h-[80lvh]"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="flex flex-col">
+      <div className="bg-black/40 absolute top-0 left-0 w-full h-full "></div>
+      <div className="flex  border-red-500 flex-col">
         <h1 className="text-left justify-center text-white text-2xl md:text-4xl lg:text-6xl font-semibold font-['Poppins'] leading-tight md:leading-[1.2] lg:leading-[87.93px] transition-all duration-700 ease-out transform translate-y-0 opacity-100">
           {text}
         </h1>
