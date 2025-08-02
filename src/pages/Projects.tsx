@@ -150,7 +150,7 @@ const Projects = () => {
           </Link>
         </div>
       </div>
-      <Testimonials />
+      {/* <Testimonials /> */}
       <OurPortfolio />
     </div>
   );

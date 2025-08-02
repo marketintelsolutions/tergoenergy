@@ -79,11 +79,11 @@ const Navbar = () => {
                 info@tergoenergy.com
               </p>
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 hidden xl:flex">
               <span className="bg-green-600 p-1 rounded-full h-fit text-white">
                 <MdPhoneInTalk />
               </span>
-              <p className="justify-start text-primaryGreen text-base font-medium font-['Poppins'] leading-tight">
+              <p className="justify-start  text-primaryGreen text-base font-medium font-['Poppins'] leading-tight">
                 +234 800 300 3000
               </p>
             </div>
@@ -272,7 +272,7 @@ const Navbar = () => {
                     <span className="bg-white p-1 rounded-full h-fit text-primaryGreen">
                       <MdPhoneInTalk />
                     </span>
-                    <p className="text-gray-200 text-sm font-medium font-['Poppins']">
+                    <p className=" text-gray-200 text-sm font-medium font-['Poppins']">
                       +234 800 300 3000
                     </p>
                   </div>
