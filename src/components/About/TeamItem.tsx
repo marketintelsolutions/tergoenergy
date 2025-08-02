@@ -4,7 +4,7 @@ const TeamItem: React.FC<any> = ({ name, role, image, onReadMore }) => {
   return (
     <div className="relative">
       <div className=" w-full h-1/2 rounded-full">
-        <div className="translate-y-[40%] w-full p-2 md:p-4 rounded-full  border-2 md:border-4 border-primaryGreen">
+        <div className="translate-y-[40%] w-fit md:w-full p-2 md:p-4 rounded-full  border-2 md:border-4 border-primaryGreen">
           <img
             src={`/images/${image}`}
             alt={name}

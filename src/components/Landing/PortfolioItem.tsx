@@ -40,10 +40,7 @@ const PortfolioItem: React.FC<{
           isItems ? "bg-black/50 gap-10" : "bg-black/15 gap-2"
         }`}
       >
-        <h4
-          style={{ color }}
-          className="justify-center text-white text-base md:text-lg lg:text-[23px] font-bold font-['Poppins'] leading-tight md:leading-7"
-        >
+        <h4 className="justify-center text-white text-base md:text-lg lg:text-[23px] font-bold font-['Poppins'] leading-tight md:leading-7">
           {text}
         </h4>
 

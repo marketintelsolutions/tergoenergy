@@ -176,21 +176,21 @@ const Navbar = () => {
           </button>
 
           {/* Get Started Button */}
-          <Link
-            to={"/contact"}
+          <a
+            href={"/contact#discuss"}
             className="p-[2px] bg-gradient-to-tr transition-all transition-discrete duration-100 ease-out delay-75 hover:from-[#C9C9C900] from-[#FFFFFF] rounded-full to-[#C9C9C900] hover:to-[#FFFFFF]"
           >
             <div className="p-[5px] bg-primaryGreen rounded-full">
               <button className="bg-white text-green-600 flex gap-2 items-center rounded-full px-4 py-2 md:px-[30px] md:py-[10px]">
                 <p className="justify-start text-BHL-Color text-sm md:text-base font-semibold font-['Poppins']">
-                  <a href="/contact">Get Started</a>
+                  Discuss With Us
                 </p>
                 <span>
                   <RxArrowTopRight size={20} className="md:size-[25px]" />
                 </span>
               </button>
             </div>
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Menu */}
