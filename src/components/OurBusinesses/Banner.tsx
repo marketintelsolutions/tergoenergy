@@ -4,7 +4,7 @@ const Banner: React.FC<{
   img?: string | null;
   text: string;
   desc?: string;
-}> = ({ img = "projects.png", text, desc }) => {
+}> = ({ img = "multigasbusiness.jpg", text, desc }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -32,7 +32,7 @@ const Banner: React.FC<{
           }`}
         >
           {desc ||
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum explicabo impedit sit repudiandae, unde iste in perspiciatis vitae neque?"}
+            "We deliver comprehensive energy solutions and different solar packages across multiple sectors and applications"}
         </p>
       </div>
     </section>

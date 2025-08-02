@@ -22,6 +22,7 @@ const NexusGas = () => {
       title: "Retail Gas Distribution",
       description:
         "Convenient access to high-quality LPG cylinders and CNG refilling stations for households and small businesses.",
+        
       items: [
         "LPG Cylinders - Various sizes",
         "CNG Refilling Stations",
@@ -52,6 +53,7 @@ const NexusGas = () => {
   return (
     <div className="bg-lightGreen pb-10 md:pb-20">
       <Banner
+      img={"nexusbanner.jpg"}
         text="Nexus Gas Trading Limited"
         desc="We offer Gas Supply Agreements (GSA's) tailored to suit your specific energy requirements, providing consistency and reliability for your business operations."
       />

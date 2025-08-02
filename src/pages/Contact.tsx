@@ -7,7 +7,7 @@ import { FaPhone } from "react-icons/fa6";
 const Contact = () => {
   return (
     <div className="bg-[#C1FACC40] pb-12 md:pb-20 lg:pb-[100px]">
-      <SharedBanner img={"banner3"} text="CONTACT US" />
+      <SharedBanner img={"contact"} text="CONTACT US" />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto mt-8 md:mt-12 lg:mt-[60px] flex flex-col lg:flex-row justify-between gap-8 md:gap-12">
         <img
@@ -19,7 +19,7 @@ const Contact = () => {
           <div className="flex flex-col gap-4 md:gap-8">
             <div className="flex items-center gap-3">
               <span>
-                <IoMail color="white" size={30} />
+                <IoMail color="green" size={30} />
               </span>
               <a href="mailto:info@tergoenergy.com">
                 <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
@@ -30,7 +30,7 @@ const Contact = () => {
 
             <div className="flex items-center gap-3">
               <span>
-                <FaPhone color="white" size={30} />
+                <FaPhone color="green" size={30} />
               </span>
               <a href="tel:+2348003003000">
                 <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
@@ -40,7 +40,7 @@ const Contact = () => {
             </div>
             <div className="flex items-start gap-3">
               <span>
-                <IoLocation color="white" size={30} />
+                <IoLocation color="green" size={30} />
               </span>
               <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] ">
                 9 Elsie Femi Pearse, Off Adeola Odeku, Victoria Island, Lagos,

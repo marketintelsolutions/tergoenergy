@@ -56,7 +56,8 @@ const Banner = () => {
             {carousel[activeIndex].text}
           </p>
           <div className="mt-6 md:mt-8 lg:mt-12">
-            <Button text="LEARN MORE" />
+          <a href="/about">
+            <Button text="LEARN MORE" /></a>
           </div>
         </div>
       </div>

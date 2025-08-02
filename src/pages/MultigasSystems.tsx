@@ -78,16 +78,12 @@ const MultigasSystems = () => {
 
   return (
     <div className="bg-lightGreen pb-10 md:pb-20">
-      <Banner
-        img={"banner2.jpg"}
-        text="Multigas Systems Limited"
-        desc="Whether you need gas infrastructure development or specialized gas application systems, we provide end-to-end services designed for safety, efficiency, and sustainability."
-      />
+      <Banner text="Multigas Systems Limited" />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
         <div className="flex flex-col lg:flex-row gap-8 md:gap-16 mb-12 md:mb-20">
           <img
-            src="/images/multigasbusiness.jpg"
+            src="/images/multigasbanner.jpg"
             alt="gas applications"
             className="w-full lg:w-[40%] max-w-[685px] object-cover rounded-[20px] md:rounded-[30px]"
           />
