@@ -11,6 +11,7 @@ import MultigasSystems from "./pages/MultigasSystems";
 import Projects from "./pages/Projects";
 import BglSecurities from "./pages/BglSecurities";
 import NewsAdmin from "./pages/Admin";
+import { AuthProvider } from "./pages/AdminAuth";
 
 function App() {
   const router = createBrowserRouter([
@@ -90,7 +91,9 @@ function App() {
       path: "/admin",
       element: (
         <MainLayout>
-          <NewsAdmin />
+          <AuthProvider>
+            <NewsAdmin />
+          </AuthProvider>
         </MainLayout>
       ),
     },
