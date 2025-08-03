@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import LetsDiscuss from "../components/Landing/LetsDiscuss";
 import SharedBanner from "../components/Layout/SharedBanner";
 import { IoGlobeOutline, IoLocation, IoMail } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
 
 const Contact = () => {
+  const discussRef = useRef<any>(null);
+
+  useEffect(() => {
+    // Check if URL contains #discuss hash
+    if (window.location.hash === "#discuss" && discussRef.current) {
+      // Add a small delay to ensure the component is fully rendered
+      setTimeout(() => {
+        discussRef.current.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }, 100);
+    }
+  }, []);
+
   return (
     <div className="bg-[#C1FACC40] pb-12 md:pb-20 lg:pb-[100px]">
       <SharedBanner img={"contact"} text="CONTACT US" />
@@ -51,7 +66,9 @@ const Contact = () => {
         </div>
       </div>
 
-      <LetsDiscuss />
+      <div ref={discussRef}>
+        <LetsDiscuss />
+      </div>
 
       <div className="mt-12 md:mt-20 px-4 md:px-0">
         <iframe
