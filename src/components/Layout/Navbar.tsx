@@ -176,8 +176,8 @@ const Navbar = () => {
           </button>
 
           {/* Get Started Button */}
-          <a
-            href={"/contact#discuss"}
+          <Link
+            to={"/contact#discuss"}
             className="p-[2px] bg-gradient-to-tr transition-all transition-discrete duration-100 ease-out delay-75 hover:from-[#C9C9C900] from-[#FFFFFF] rounded-full to-[#C9C9C900] hover:to-[#FFFFFF]"
           >
             <div className="p-[5px] bg-primaryGreen rounded-full">
@@ -190,7 +190,7 @@ const Navbar = () => {
                 </span>
               </button>
             </div>
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu */}
