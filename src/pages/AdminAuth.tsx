@@ -1,77 +1,15 @@
-import React, {
-  useState,
-  useEffect,
-  createContext,
-  useContext,
-  ReactNode,
-} from "react";
-import {
-  signInWithEmailAndPassword,
-  signOut,
-  onAuthStateChanged,
-  User,
-} from "firebase/auth";
+// AdminLogin.tsx - Standalone login page
+import React, { useState } from "react";
+import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase/config";
+import { useNavigate } from "react-router-dom";
 
-// Auth Context
-interface AuthContextType {
-  user: User | null;
-  loading: boolean;
-  login: (email: string, password: string) => Promise<void>;
-  logout: () => Promise<void>;
-}
-
-const AuthContext = createContext<AuthContextType | undefined>(undefined);
-
-// Auth Provider
-interface AuthProviderProps {
-  children: ReactNode;
-}
-
-export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
-  const [user, setUser] = useState<User | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
-      setUser(user);
-      setLoading(false);
-    });
-
-    return unsubscribe;
-  }, []);
-
-  const login = async (email: string, password: string): Promise<void> => {
-    await signInWithEmailAndPassword(auth, email, password);
-  };
-
-  const logout = async (): Promise<void> => {
-    await signOut(auth);
-  };
-
-  return (
-    <AuthContext.Provider value={{ user, loading, login, logout }}>
-      {children}
-    </AuthContext.Provider>
-  );
-};
-
-// Auth Hook
-export const useAuth = (): AuthContextType => {
-  const context = useContext(AuthContext);
-  if (!context) {
-    throw new Error("useAuth must be used within AuthProvider");
-  }
-  return context;
-};
-
-// Login Component
 const AdminLogin: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const { login } = useAuth();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -79,7 +17,8 @@ const AdminLogin: React.FC = () => {
     setIsLoading(true);
 
     try {
-      await login(email, password);
+      await signInWithEmailAndPassword(auth, email, password);
+      navigate("/admin"); // Redirect to admin page after successful login
     } catch (err) {
       setError("Invalid credentials. Please try again.");
       console.error("Login error:", err);
@@ -89,7 +28,7 @@ const AdminLogin: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+    <div className="min-h-screen bg-lightGreen  flex items-center justify-center bg-gray-50">
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
@@ -156,29 +95,6 @@ const AdminLogin: React.FC = () => {
       </div>
     </div>
   );
-};
-
-// Protected Route Component
-interface ProtectedRouteProps {
-  children: ReactNode;
-}
-
-export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
-  const { user, loading } = useAuth();
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-lg">Loading...</div>
-      </div>
-    );
-  }
-
-  if (!user) {
-    return <AdminLogin />;
-  }
-
-  return <>{children}</>;
 };
 
 export default AdminLogin;

@@ -187,7 +187,7 @@ const News: React.FC = () => {
     });
   };
 
-  if (!loading) {
+  if (loading) {
     return (
       <div className="bg-[#C1FACC40] pb-12 md:pb-20 lg:pb-[100px]">
         <SharedBanner img={"banner2"} text="NEWS" />
