@@ -4,7 +4,7 @@ import BringingItTogether from "../components/Landing/BringingItTogether";
 
 const BglCapital = () => {
   return (
-    <div className="bg-lightGreen pb-20">
+    <div className="pb-20">
       <Banner text="Bgl capital" />
 
       <div className="w-[85%] max-w-[1600px] mx-auto my-[172px]">

@@ -284,7 +284,7 @@ const Admin: React.FC = () => {
   }
 
   return (
-    <div className="bg-lightGreen ">
+    <div className="">
       <div className="py-40  px-8 max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <div>

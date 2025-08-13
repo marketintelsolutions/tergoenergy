@@ -6,7 +6,7 @@ import StayUpdated from "../components/Landing/StayUpdated";
 
 const Landing = () => {
   return (
-    <div className="bg-lightGreen">
+    <div className="">
       <Banner />
       {/* <WeBelieveSection /> */}
       <BringingItTogether />
