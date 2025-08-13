@@ -51,7 +51,7 @@ const footerData = [
 
 const Footer = () => {
   return (
-    <footer className="bg-lightGreen pb-20">
+    <footer className=" pb-20">
       <div className="bg-primaryGreen w-[95%] md:w-[85%] max-w-[1600px] mx-auto rounded-[25px] md:rounded-[50px] py-8 md:py-11">
         <div className="w-[90%] flex flex-col lg:flex-row justify-between gap-8 md:gap-12 lg:gap-[80px] max-w-[1200px] mx-auto">
           <div className=" flex flex-col md:flex-row justify-between w-full lg:max-w-[75%] gap-8 md:gap-10">

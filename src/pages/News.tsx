@@ -189,7 +189,7 @@ const News: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="bg-[#C1FACC40] pb-12 md:pb-20 lg:pb-[100px]">
+      <div className="pb-12 md:pb-20 lg:pb-[100px]">
         <SharedBanner img={"banner2"} text="NEWS" />
         <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto">
           <NewsLoader />
@@ -200,7 +200,7 @@ const News: React.FC = () => {
 
   if (error) {
     return (
-      <div className="bg-[#C1FACC40] pb-12 md:pb-20 lg:pb-[100px]">
+      <div className="pb-12 md:pb-20 lg:pb-[100px]">
         <SharedBanner img={"banner2"} text="NEWS" />
         <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto">
           <div className="flex justify-center items-center mt-20">
@@ -216,7 +216,7 @@ const News: React.FC = () => {
   const sidebarArticles = newsArticles.slice(5, 10); // Take next 5
 
   return (
-    <div className="bg-[#C1FACC40] pb-12 md:pb-20 lg:pb-[100px]">
+    <div className=" pb-12 md:pb-20 lg:pb-[100px]">
       <SharedBanner img={"news"} text="NEWS" />
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto">
         {featuredArticle && (

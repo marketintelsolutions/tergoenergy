@@ -39,10 +39,10 @@ const navData = [
       },
     ],
   },
-  {
-    text: "News",
-    path: "/news",
-  },
+  // {
+  //   text: "News",
+  //   path: "/news",
+  // },
   {
     text: "Contact Us",
     path: "/contact",
@@ -63,7 +63,7 @@ const Navbar = () => {
   return (
     <>
       {/* Top section with contact info */}
-      <div className="w-full bg-lightGreen pt-4 pb-6 md:pt-[37px] md:pb-[73px]">
+      <div className="w-full pt-4 pb-6 md:pt-[37px] md:pb-[73px]">
         <div className="items-center w-[90%] md:w-[85%] max-w-[1600px] mx-auto flex flex-col md:flex-row gap-4 md:gap-[100px]">
           <Link to={"/"} className="w-full max-w-[150px] md:max-w-[200px]">
             <img src="/logo.png" alt="logo" className="w-full max-w-[250px]" />
@@ -94,9 +94,7 @@ const Navbar = () => {
             <span>
               <FaFacebookF />
             </span>
-            <span>
-              <FaXTwitter />
-            </span>
+
             <span>
               <FaLinkedin />
             </span>

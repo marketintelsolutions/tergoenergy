@@ -7,7 +7,7 @@ const LetsDiscuss = () => {
   return (
     <div
       id="discuss"
-      className="bg-white mt-10 md:mt-20 py-12 md:py-20 lg:py-[80px] shadow-[0px_69px_114px_rgba(131,128,135,0.08)] rounded-[20px] w-[95%] md:w-[80%] mx-auto max-w-[1410px]"
+      className="bg-lightGreen/20 mt-10 md:mt-20 py-12 md:py-20 lg:py-[80px] shadow-[0px_69px_114px_rgba(131,128,135,0.08)] rounded-[20px] w-[95%] md:w-[80%] mx-auto max-w-[1410px]"
     >
       <div className="w-[90%] md:w-[85%] mx-auto flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-[70px] items-start justify-between">
         <div className="w-full lg:max-w-[50%]">

@@ -22,7 +22,7 @@ const NexusGas = () => {
       title: "Retail Gas Distribution",
       description:
         "Convenient access to high-quality LPG cylinders and CNG refilling stations for households and small businesses.",
-        
+
       items: [
         "LPG Cylinders - Various sizes",
         "CNG Refilling Stations",
@@ -51,9 +51,9 @@ const NexusGas = () => {
   ];
 
   return (
-    <div className="bg-lightGreen pb-10 md:pb-20">
+    <div className=" pb-10 md:pb-20">
       <Banner
-      img={"nexusbanner.jpg"}
+        img={"nexusbanner.jpg"}
         text="Nexus Gas Trading Limited"
         desc="We offer Gas Supply Agreements (GSA's) tailored to suit your specific energy requirements, providing consistency and reliability for your business operations."
       />
@@ -91,7 +91,7 @@ const NexusGas = () => {
           {gasServices.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)]"
+              className="bg-lightGreen/20 rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)]"
             >
               <h3 className="text-nexusbg-nexusBlue text-xl md:text-2xl lg:text-3xl font-bold font-['Inter'] leading-tight md:leading-8 lg:leading-10 mb-4 md:mb-6">
                 {service.title}

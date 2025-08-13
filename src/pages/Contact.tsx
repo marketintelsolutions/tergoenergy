@@ -21,7 +21,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className="bg-[#C1FACC40] pb-12 md:pb-20 lg:pb-[100px]">
+    <div className=" pb-12 md:pb-20 lg:pb-[100px]">
       <SharedBanner img={"contact"} text="CONTACT US" />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto mt-8 md:mt-12 lg:mt-[60px] flex flex-col lg:flex-row justify-between gap-8 md:gap-12">
