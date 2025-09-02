@@ -32,7 +32,7 @@ const Banner: React.FC<{
           }`}
         >
           {desc ||
-            "We deliver comprehensive energy solutions and different solar packages across multiple sectors and applications"}
+            "Unlocking the Power of Gas: Innovative Applications for Modern Living & Industry"}
         </p>
       </div>
     </section>

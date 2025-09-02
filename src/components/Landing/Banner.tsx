@@ -4,21 +4,28 @@ import Button from "../ui/Button";
 const carousel = [
   {
     img: "caro1",
-    heading: "Leading provider of clean energy solutions across Africa",
+    heading:
+      "Powering Africa’s Future with Clean Gas & Renewable Energy Solutions",
     text:
-      "Accelerating clean energy transition through building a portfolio of assets in renewable energy and natural gas to achieve stakeholders' value",
+      "From clean cooking gas to solar farms and EV infrastructure—delivering reliable, sustainable energy across the continent.",
   },
   {
     img: "caro2",
-    heading: "Comprehensive Gas & Renewable Energy Solutions",
+    heading: "Clean Gas Energy for Everyday Life & Industry",
     text:
-      "From bulk gas supply and CNG services to solar installations and energy storage - we deliver sustainable energy solutions for residential, commercial, and industrial needs.",
+      "Safer cooking, efficient cooling, reliable heating, and uninterrupted power—transforming communities and businesses with modern gas solutions.",
   },
   {
     img: "caro3",
-    heading: "Powering Africa's Energy Future Since 2020",
+    heading: "Driving Africa’s Energy Transition with Renewables",
     text:
-      "As a member of the Nigerian Gas Association, we're committed to addressing Africa's energy challenges through innovative natural gas and renewable energy solutions.",
+      "Solar farms, EV charging networks, and smart energy consulting—pioneering a greener, more sustainable future.",
+  },
+  {
+    img: "caro4",
+    heading: "Bridging Energy Gaps with Smart Hybrid Solutions",
+    text:
+      "Combining gas and renewables for flexible, reliable, and cost-effective power—meeting Africa’s diverse energy needs today and tomorrow.",
   },
 ];
 
@@ -40,7 +47,7 @@ const Banner = () => {
   return (
     <div
       style={{
-        backgroundImage: `url(/images/${carousel[activeIndex].img}.jpg)`,
+        backgroundImage: `url(/images/${carousel[activeIndex].img}.png)`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
@@ -56,8 +63,9 @@ const Banner = () => {
             {carousel[activeIndex].text}
           </p>
           <div className="mt-6 md:mt-8 lg:mt-12">
-          <a href="/about">
-            <Button text="LEARN MORE" /></a>
+            <a href="/about">
+              <Button text="LEARN MORE" />
+            </a>
           </div>
         </div>
       </div>

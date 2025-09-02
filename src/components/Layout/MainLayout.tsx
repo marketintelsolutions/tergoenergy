@@ -14,7 +14,7 @@ const MainLayout = ({
   const params = useParams();
 
   useEffect(() => {
-    if (hash || pathname === "/contact") return;
+    if (hash) return;
     window.scroll(0, 0);
   }, [pathname, params, hash]);
 

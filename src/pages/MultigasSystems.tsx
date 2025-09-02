@@ -9,9 +9,9 @@ const MultigasSystems = () => {
   const gasApplications = [
     {
       icon: <FaFireAlt />,
-      title: "Gas to Heating",
+      title: "Cooking Solutions",
       description:
-        "Innovative gas solutions for industrial and residential heating applications, ensuring optimal energy use and cost efficiency.",
+        "Modern, high efficiency metered gas systems for kitchens of all sizes, from individual households to large-scale institutional cafeterias.",
       applications: [
         "Industrial Heating Systems",
         "Residential & Commercial Heating",
@@ -21,9 +21,9 @@ const MultigasSystems = () => {
     },
     {
       icon: <GiElectric />,
-      title: "Gas to Power",
+      title: "Water Heating",
       description:
-        "Gas-powered solutions for electricity generation, enhancing energy reliability and reducing environmental impact.",
+        "Reliable and cost-effective gas-powered water heating solutions for homes, hotels, schools, hospitals and commercial facilities.",
       applications: [
         "Backup Power Systems",
         "Grid Power Generation",
@@ -33,9 +33,9 @@ const MultigasSystems = () => {
     },
     {
       icon: <FaRegSnowflake />,
-      title: "Gas to Cooling",
+      title: "Centralized Cooling",
       description:
-        "Advanced gas-based cooling systems for industrial and commercial applications, offering sustainable temperature control.",
+        "Innovative gas-powered heat pumps and absorption chilling systems for climate control in hotels, hospitals, office complexes, and industrial buildings.",
       applications: [
         "Industrial Cooling Systems",
         "Commercial Air Conditioning",
@@ -45,9 +45,9 @@ const MultigasSystems = () => {
     },
     {
       icon: <MdOutlineLocalShipping />,
-      title: "Gas to Transport",
+      title: "Power Generation",
       description:
-        "Supporting the transition to cleaner energy in the transport sector with gas-fueled vehicles and transportation systems.",
+        "Backup and primary power solutions using gas generators to ensure operational continuity for businesses and critical institutions.",
       applications: [
         "CNG Vehicle Conversion",
         "Fleet Solutions",
@@ -55,18 +55,18 @@ const MultigasSystems = () => {
         "Clean Transport Infrastructure",
       ],
     },
-    {
-      icon: <GiRiceCooker />,
-      title: "Gas to Cooking",
-      description:
-        "Safe and efficient gas solutions for domestic and commercial cooking, promoting energy efficiency and sustainability.",
-      applications: [
-        "Residential LPG Solutions",
-        "Commercial Kitchen Systems",
-        "Restaurant Solutions",
-        "Large-scale Food Processing",
-      ],
-    },
+    // {
+    //   icon: <GiRiceCooker />,
+    //   title: "Gas to Cooking",
+    //   description:
+    //     "Safe and efficient gas solutions for domestic and commercial cooking, promoting energy efficiency and sustainability.",
+    //   applications: [
+    //     "Residential LPG Solutions",
+    //     "Commercial Kitchen Systems",
+    //     "Restaurant Solutions",
+    //     "Large-scale Food Processing",
+    //   ],
+    // },
   ];
 
   const multgasAdvantages = [
@@ -78,7 +78,11 @@ const MultigasSystems = () => {
 
   return (
     <div className=" pb-10 md:pb-20">
-      <Banner text="Multigas Systems Limited" />
+      <Banner
+        text="Multigas Systems Limited"
+        desc="Unlocking the Power of Gas: Innovative Applications for 
+Modern Living & Industry"
+      />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
         <div className="flex flex-col lg:flex-row gap-8 md:gap-16 mb-12 md:mb-20">
@@ -89,22 +93,43 @@ const MultigasSystems = () => {
           />
           <div className="flex-1">
             <h3 className="text-multigasGreen text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10">
-              Multigas Systems Limited
+              Your Partner in Advanced Gas Technology
             </h3>
             <p className="max-w-[836px] mt-6 md:mt-12 lg:mt-[50px] text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[40px]">
-              Our Gas Application services are designed to maximize the
-              versatility and efficiency of gas systems across multiple sectors.
-              Through Multigas Systems Limited, we offer customized solutions
-              that span from heating and power generation to cooling and
-              transportation applications.
+              At Multigas Systems Limited, we leverage the versatility and
+              efficiency of LPG (Butane) and Propane to provide tailored energy
+              solutions for households, estates, institutions, and commercial
+              businesses. Our expertise is designing and implementing the
+              infrastructure that transforms gas into a powerful resource for
+              everyday and industrial needs.
             </p>
-            <p className="self-stretch mt-6 md:mt-10 text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[47px]">
-              At MULTIGAS, we are committed to delivering innovative, reliable,
-              and efficient gas solutions across various industries. Whether you
-              need gas infrastructure development or specialized gas application
-              systems, we provide end-to-end services designed for safety,
-              efficiency, and sustainability.
-            </p>
+            <h3 className="font-light uppercase mt-10">
+              Our End-to-End Service Includes
+            </h3>
+
+            <div className="flex flex-col gap-5 mt-5 text-lg ">
+              <p className="flex items-start gap-2">
+                <span>•</span>
+                <span>
+                  <b>Consultation & Design:- </b> Custom engineering to meet
+                  your specific needs.
+                </span>
+              </p>
+              <p className="flex items-start gap-2">
+                <span>•</span>
+                <span>
+                  <b>Professional Installation - </b> Precision implementation
+                  by certified technicians.
+                </span>
+              </p>
+              <p className="flex items-start gap-2">
+                <span>•</span>
+                <span>
+                  <b>Ongoing Maintenance - </b> Ensuring sustained safety,
+                  reliability, and peak performance.
+                </span>
+              </p>
+            </div>
           </div>
         </div>
 
@@ -128,7 +153,7 @@ const MultigasSystems = () => {
                   <p className="text-ash-g-Color text-base md:text-lg lg:text-xl font-normal font-['Inter'] leading-relaxed md:leading-7 lg:leading-[32px] mb-6 md:mb-8">
                     {application.description}
                   </p>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+                  {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                     {application.applications.map((app, idx) => (
                       <div key={idx} className="flex items-center gap-3">
                         <div className="w-2 h-2 bg-multigasGreen rounded-full flex-shrink-0"></div>
@@ -137,7 +162,7 @@ const MultigasSystems = () => {
                         </span>
                       </div>
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -147,33 +172,53 @@ const MultigasSystems = () => {
         {/* Installation & Maintenance */}
         <div className="bg-lightGreen/20 rounded-[25px] md:rounded-[50px] p-8 md:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)] my-12 md:my-20">
           <h3 className="text-primaryGreen text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10 mb-6 md:mb-8 text-center">
-            Installation & Maintenance Services
+            Who We Serve
           </h3>
-          <p className="text-ash-g-Color text-lg md:text-xl font-normal font-['Inter'] leading-relaxed md:leading-[32px] mb-8 md:mb-10 text-center">
+          {/* <p className="text-ash-g-Color text-lg md:text-xl font-normal font-['Inter'] leading-relaxed md:leading-[32px] mb-8 md:mb-10 text-center">
             Safety and efficiency are our top priorities. We offer professional
             installation and maintenance services for all your gas equipment and
             systems.
-          </p>
+          </p> */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
             <div>
               <h4 className="text-primaryGreen text-xl md:text-2xl font-bold font-['Inter'] leading-tight md:leading-8 mb-3 md:mb-4">
-                LPG Storage Systems
+                Households & Gated Estates
               </h4>
-              <p className="text-ash-g-Color text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
+              {/* <p className="text-ash-g-Color text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
                 We design and install safe and efficient LPG storage solutions
                 for both residential and commercial use. Our team ensures
                 compliance with all safety standards.
-              </p>
+              </p> */}
             </div>
             <div>
               <h4 className="text-primaryGreen text-xl md:text-2xl font-bold font-['Inter'] leading-tight md:leading-8 mb-3 md:mb-4">
-                CNG Equipment Maintenance
+                Educational & Healthcare Institutions
               </h4>
-              <p className="text-ash-g-Color text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
+              {/* <p className="text-ash-g-Color text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
                 Regular maintenance is key to the longevity and efficiency of
                 your CNG systems. Our experts provide comprehensive maintenance
                 services to keep your equipment in top condition.
-              </p>
+              </p> */}
+            </div>
+            <div>
+              <h4 className="text-primaryGreen text-xl md:text-2xl font-bold font-['Inter'] leading-tight md:leading-8 mb-3 md:mb-4">
+                Hospitality Businesses (Hotels, Restaurants)
+              </h4>
+              {/* <p className="text-ash-g-Color text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
+                Regular maintenance is key to the longevity and efficiency of
+                your CNG systems. Our experts provide comprehensive maintenance
+                services to keep your equipment in top condition.
+              </p> */}
+            </div>
+            <div>
+              <h4 className="text-primaryGreen text-xl md:text-2xl font-bold font-['Inter'] leading-tight md:leading-8 mb-3 md:mb-4">
+                Commercial & Industrial Enterprises
+              </h4>
+              {/* <p className="text-ash-g-Color text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
+                Regular maintenance is key to the longevity and efficiency of
+                your CNG systems. Our experts provide comprehensive maintenance
+                services to keep your equipment in top condition.
+              </p> */}
             </div>
           </div>
         </div>
@@ -202,13 +247,17 @@ const MultigasSystems = () => {
               Why Choose MULTIGAS?
             </div>
             <div className="text-black text-sm md:text-base lg:text-lg font-normal font-['Inter'] leading-relaxed md:leading-6 lg:leading-8">
-              From design and construction to ongoing maintenance, we ensure
-              your gas systems are built to the highest industry standards. We
-              provide industrial, commercial, and residential gas solutions,
-              optimizing energy use for heating, cooking, power generation, and
-              more. Our team follows strict regulatory guidelines to ensure all
-              infrastructure and applications meet national and international
-              safety standards.
+              We design systems specific to your site and needs.
+              <br />
+              <br />
+              End-to-End Service from concept to commissioning and beyond.
+              <br />
+              <br />
+              All installations adhere to international safety standards.
+              <br />
+              <br />
+              Our systems are designed to reduce energy costs and improve
+              sustainability
             </div>
           </div>
         </div>
@@ -216,11 +265,12 @@ const MultigasSystems = () => {
         {/* Call to Action */}
         <div className="text-center">
           <h3 className="text-primaryGreen text-2xl md:text-3xl lg:text-4xl font-bold font-['Poppins'] leading-tight md:leading-[1.2] lg:leading-[48px] mb-4 md:mb-6">
-            Powering Businesses with Smart Gas Solutions
+            Ready to harness the efficiency and versatility of gas for your
+            property or business?
           </h3>
           <p className="text-ash-g-Color text-lg md:text-xl font-normal font-['Inter'] leading-relaxed md:leading-[32px] mb-8 md:mb-10">
-            Partner with MULTIGAS for a seamless, efficient, and future-ready
-            gas infrastructure.
+            Contact Us for a free consultation and let us design a custom gas
+            application solution for you.
           </p>
           <button className="bg-multigasGreen text-white px-8 md:px-12 py-3 md:py-4 rounded-[15px] text-lg md:text-xl font-semibold font-['Poppins'] hover:bg-multigasGreen/90 transition-colors">
             Contact MULTIGAS Today
