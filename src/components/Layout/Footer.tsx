@@ -78,14 +78,14 @@ const Footer = () => {
                 Island, Lagos.
               </p>
               <div className="flex gap-[22px] text-2xl mt-8 md:mt-12 lg:mt-[71px] text-white items-center">
-                <span className="inline-flex p-2 border border-white rounded-full">
+                <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
                   <FaFacebookF />
                 </span>
 
-                <span className="inline-flex p-2 border border-white rounded-full">
+                <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
                   <FaLinkedin />
                 </span>
-                <span className="inline-flex p-2 border border-white rounded-full">
+                <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
                   <FaInstagram />
                 </span>
               </div>
@@ -130,7 +130,7 @@ const Footer = () => {
             </div>
           </div> */}
         </div>
-        <div className="w-[90%] max-w-[1200px] mx-auto flex flex-wrap gap-10 mt-10">
+        <div className="w-[90%] max-w-[1200px] mx-auto flex justify-center flex-wrap gap-10 mt-10">
           <p className="justify-start text-white text-sm md:text-base font-light font-['Poppins'] leading-none">
             © 2025 Tergo Energy Limited
           </p>
