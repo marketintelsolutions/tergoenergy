@@ -99,7 +99,7 @@ const CosolEnergy = () => {
           {renewableServices.map((service, index) => (
             <div
               key={index}
-              className="bg-lightGreen/20 rounded-[20px] md:rounded-[30px] p-6 md:p-8 shadow-[0px_69px_114px_rgba(58,64,58,0.08)]"
+              className="bg-cosolYellow/10 rounded-[20px] md:rounded-[30px] p-6 md:p-8 shadow-[0px_69px_114px_rgba(58,64,58,0.08)]"
             >
               <div className="w-12 h-12 md:w-16 md:h-16 bg-primaryGreen rounded-full flex items-center justify-center mb-4 md:mb-6">
                 <span className="text-white text-xl md:text-2xl">⚡</span>
@@ -115,7 +115,7 @@ const CosolEnergy = () => {
         </div>
 
         {/* Project Development Section */}
-        <div className="bg-lightGreen/20 rounded-[25px] md:rounded-[50px] p-8 md:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)] mb-12 md:mb-20">
+        <div className="bg-cosolYellow/10 rounded-[25px] md:rounded-[50px] p-8 md:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)] mb-12 md:mb-20">
           <h3 className="text-primaryGreen text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10 mb-6 md:mb-8 text-center">
             Who We Serve
           </h3>
