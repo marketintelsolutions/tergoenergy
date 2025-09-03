@@ -84,7 +84,7 @@ const Navbar = () => {
                 <MdPhoneInTalk />
               </span>
               <p className="justify-start  text-primaryGreen text-base font-medium font-['Poppins'] leading-tight">
-                +234 800 300 3000
+                +234 810 928 8365, +234 906 123 6156
               </p>
             </div>
           </div>

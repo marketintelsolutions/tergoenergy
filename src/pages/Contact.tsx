@@ -49,7 +49,8 @@ const Contact = () => {
               </span>
               <a href="tel:+2348003003000">
                 <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
-                  +234 800 300 3000
+                  +234 810 928 8365,
+                  <br /> +234 906 123 6156
                 </span>
               </a>
             </div>
