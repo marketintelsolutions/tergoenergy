@@ -65,7 +65,7 @@ function App() {
       ),
     },
     {
-      path: "/our-businesses/projects",
+      path: "/projects",
       element: (
         <MainLayout>
           <Projects />

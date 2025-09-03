@@ -8,7 +8,7 @@ const WhoWeAre = () => {
           <img
             src="/images/manteeth.png"
             alt="man shining teeth"
-            className="w-full  object-cover rounded-[30px] md:rounded-[60px]"
+            className="w-full h-full object-cover rounded-[30px] md:rounded-[60px]"
           />
         </div>
         <div className="h-full w-full lg:w-[55%] max-w-[800px]">
@@ -17,46 +17,107 @@ const WhoWeAre = () => {
           </h2>
           <p className="mt-4 md:mt-6 lg:mt-[30px] text-justify justify-start text-black text-base md:text-lg lg:text-[20px] font-normal font-['Poppins'] leading-relaxed md:leading-8 lg:leading-[35.68px]">
             Tergo Energy Limited, a subsidiary of PanAfrican Capital Holdings
-            Limited, is committed to advancing Africa's energy transition by
-            harnessing natural gas and renewable energy solutions. We focus on
-            delivering sustainable, efficient, and reliable energy to
-            residential, commercial, and industrial consumers across Nigeria and
-            West Africa.
+            Limited, is a specialized indigenous energy company facilitating
+            Africa's transition to sustainable energy. Since our establishment
+            in 2020, we have focused on responsibly developing natural gas and
+            renewable energy solutions that power homes, businesses, and
+            industries across Nigeria and West Africa.
             <br />
             <br />
-            Established in 2020, Tergo Energy Limited is a leading indigenous
-            energy company dedicated to the responsible development of natural
-            energy resources across Nigeria and Africa. As a proud member of the
-            Nigerian Gas Association, REAN, NLCGA, NGA, LCCI, we are committed
-            to addressing Africa's energy challenges by delivering clean,
-            sustainable, and innovative energy solutions.
-            <br />
-            <br />
-            Leveraging our multidisciplinary technical expertise, we focus on
-            advancing natural gas and solar energy to drive positive and lasting
-            impact. At Tergo Energy, we are devoted to serving our stakeholders
-            by being responsible stewards of the resources we manage while
-            ensuring attractive returns for our investors.
-            <br />
-            <br />
+            <h3 className="font-light uppercase">Our Portfolio Companies</h3>
+            <p className="mt-2">
+              We deliver specialized energy solutions through three focused
+              subsidiaries:
+            </p>
+            <div className="flex flex-col gap-5 mt-5 text-lg ">
+              <p className="flex items-start gap-2">
+                <span>•</span>
+                <span>
+                  <b>COSOL Energy Solution Limited - </b> Renewable energy
+                  solutions (solar, EV, consulting)
+                </span>
+              </p>
+              <p className="flex items-start gap-2">
+                <span>•</span>
+                <span>
+                  <b>Nexus Gas Trading Limited - </b> High-quality gas supply
+                  and distribution
+                </span>
+              </p>
+              <p className="flex items-start gap-2">
+                <span>•</span>
+                <span>
+                  <b>Multigas Systems Limited - </b> Customized gas applications
+                  for domestic, industrial and commercial use
+                </span>
+              </p>
+            </div>
+            <h3 className="font-light mt-10 uppercase">Our Core Commitment</h3>
+            <p className="mt-2">
+              At Tergo Energy Limited, our greatest assets are our people and
+              our reputation. We operate with uncompromising integrity, foster
+              diversity, and invest in our team’s growth to ensure:
+            </p>
+            <div className="flex flex-col gap-5 mt-5 text-lg ">
+              <p className="flex items-start gap-2">
+                <span>•</span>
+                <span>
+                  <b>Best-in-Class Solutions - </b> Leveraging multidisciplinary
+                  expertise
+                </span>
+              </p>
+              <p className="flex items-start gap-2">
+                <span>•</span>
+                <span>
+                  <b>Sustainable Impact - </b> Balancing profitability with
+                  environmental responsibility
+                </span>
+              </p>
+              <p className="flex items-start gap-2">
+                <span>•</span>
+                <span>
+                  <b>Stakeholder Trust - </b> Building long-term partnerships
+                  across Africa’s energy sector
+                </span>
+              </p>
+            </div>
           </p>
+
+          <br />
         </div>
       </div>
-      <p className="w-full max-w-[1596px] mt-8 md:mt-12 lg:mt-[50px] text-justify justify-start text-black text-base md:text-lg lg:text-[20px] font-normal font-['Poppins'] leading-relaxed md:leading-8 lg:leading-[35.68px]">
-        We provide world-class energy solutions through our three portfolio
-        companies: COSOL Energy Solution Limited driving renewable energy
-        solutions, Nexus Gas Trading Limited delivering high-quality gas
-        services, and Multigas Systems Limited providing customized gas
-        applications across multiple sectors.
-        <br />
-        <br />
-        At Tergo Energy, we realize that our biggest assets are our people and
-        our reputation. Integrity and sustainability in everything we do is
-        paramount. We promote diversity and place much emphasis on the personal
-        and professional development of all our team members, ensuring we
-        deliver best-in-class energy solutions that maximize value for all our
-        stakeholders.
+      <p className="mt-4 md:mt-6 lg:mt-[30px] text-justify justify-start text-black text-base md:text-lg lg:text-[20px] font-normal font-['Poppins'] leading-relaxed md:leading-8 lg:leading-[35.68px]">
+        Our membership in key industry bodies—including the Nigerian Gas
+        Association (NGA), Renewable Energy Association of Nigeria (REAN),
+        Nigerian Liquefied and Compressed Gases Association (NLCGA) and Lagos
+        Chamber of Commerce & Industry (LCCI)— provides us with unparalleled
+        local insight. This allows us to combine technical expertise with
+        on-the-ground knowledge to deliver:
       </p>
+      <div className="flex flex-col gap-5 mt-5 text-lg ">
+        <p className="flex items-start gap-2">
+          <span>•</span>
+          <span>
+            <b>Clean & Reliable Energy:</b> Sustainable natural gas and solar
+            solutions tailored to Africa's unique needs.
+          </span>
+        </p>
+        <p className="flex items-start gap-2">
+          <span>•</span>
+          <span>
+            <b>End-to-End Services:</b> Comprehensive support, from renewable
+            power generation to gas distribution and customized applications.
+          </span>
+        </p>
+        <p className="flex items-start gap-2">
+          <span>•</span>
+          <span>
+            <b>Stakeholder Value:</b> A balanced approach to resource management
+            that ensures environmental stewardship and attractive investor
+            returns.
+          </span>
+        </p>
+      </div>
     </section>
   );
 };

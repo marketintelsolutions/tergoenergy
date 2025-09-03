@@ -8,17 +8,17 @@ const footerData = [
   {
     heading: "Quick Links",
     items: [
-      {
-        text: "Home",
-        path: "/",
-      },
+      // {
+      //   text: "Home",
+      //   path: "/",
+      // },
       {
         text: "About Us",
         path: "/about",
       },
       {
-        text: "News",
-        path: "/news",
+        text: "Our Projects",
+        path: "/projects",
       },
       {
         text: "Contact Us",
@@ -26,27 +26,27 @@ const footerData = [
       },
     ],
   },
-  {
-    heading: "Company",
-    items: [
-      {
-        text: "Nexus Gas",
-        path: "/our-businesses/nexus-gas",
-      },
-      {
-        text: "Cosol Energy",
-        path: "/our-businesses/cosol-energy",
-      },
-      {
-        text: "Multigas Systems",
-        path: "/our-businesses/multigas-systems",
-      },
-      {
-        text: "Projects",
-        path: "/our-businesses/projects",
-      },
-    ],
-  },
+  // {
+  //   heading: "Company",
+  //   items: [
+  //     {
+  //       text: "Nexus Gas",
+  //       path: "/our-businesses/nexus-gas",
+  //     },
+  //     {
+  //       text: "Cosol Energy",
+  //       path: "/our-businesses/cosol-energy",
+  //     },
+  //     {
+  //       text: "Multigas Systems",
+  //       path: "/our-businesses/multigas-systems",
+  //     },
+  //     {
+  //       text: "Projects",
+  //       path: "/projects",
+  //     },
+  //   ],
+  // },
 ];
 
 const Footer = () => {
@@ -55,26 +55,37 @@ const Footer = () => {
       <div className="bg-primaryGreen w-[95%] md:w-[85%] max-w-[1600px] mx-auto rounded-[25px] md:rounded-[50px] py-8 md:py-11">
         <div className="w-[90%] flex flex-col lg:flex-row justify-between gap-8 md:gap-12 lg:gap-[80px] max-w-[1200px] mx-auto">
           <div className=" flex flex-col md:flex-row justify-between w-full lg:max-w-[75%] gap-8 md:gap-10">
-            <div className="  min-w-0">
-              <div className="w-full max-w-[200px]">
+            <div className="max-w-[500px]  min-w-0">
+              <div className="w-full max-w-[270px]">
                 <img src="/whitelogo.svg" alt="whitelogo" className="w-full" />
               </div>
 
-              <p className=" self-stretch mt-4 md:mt-[25px] opacity-80 justify-start text-white text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-loose tracking-tight">
-                E-mail: info@tergoenergy.com
+              <p className="mt-5 text-white text-sm font-light">
+                “Tergo Energy Limited is a subsidiary of PanAfrican Capital
+                Holdings Limited, committed to responsibly developing gas and
+                renewable energy solutions across Nigeria and West Africa”
               </p>
-              <p className="w-max self-stretch mt-4 md:mt-[25px] opacity-80 justify-start text-white text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-loose tracking-tight">
-                Tel: +234 800 300 3000
+
+              <p className=" self-stretch mt-4 md:mt-[15px] opacity-80 justify-start text-white text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-loose tracking-tight">
+                info@tergoenergy.com
               </p>
-              <div className="flex gap-[22px] mt-8 md:mt-12 lg:mt-[71px] text-white items-center">
-                <span>
+              <p className="w-max self-stretch mt-4 md:mt-[15px] opacity-80 justify-start text-white text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-loose tracking-tight">
+                +234 810 928 8365,
+                <br /> +234 906 123 6156
+              </p>
+              <p className="w-max self-stretch mt-4 md:mt-[15px] opacity-80 justify-start text-white text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-loose tracking-tight">
+                8A Elsie Femi Pearse Street, Off Adeola Odeku Street, Victoria
+                Island, Lagos.
+              </p>
+              <div className="flex gap-[22px] text-2xl mt-8 md:mt-12 lg:mt-[71px] text-white items-center">
+                <span className="inline-flex p-2 border border-white rounded-full">
                   <FaFacebookF />
                 </span>
 
-                <span>
+                <span className="inline-flex p-2 border border-white rounded-full">
                   <FaLinkedin />
                 </span>
-                <span>
+                <span className="inline-flex p-2 border border-white rounded-full">
                   <FaInstagram />
                 </span>
               </div>
@@ -102,7 +113,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex-1  lg:flex-none">
+          {/* <div className="flex-1  lg:flex-none">
             <h4 className="self-stretch justify-start text-white text-xl md:text-2xl font-semibold font-['Poppins'] leading-normal">
               Get The Latest Updates
             </h4>
@@ -117,11 +128,11 @@ const Footer = () => {
                 className="max-w-none sm:max-w-[170px]"
               />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="w-[90%] max-w-[1200px] mx-auto flex flex-wrap gap-10 mt-10">
           <p className="justify-start text-white text-sm md:text-base font-light font-['Poppins'] leading-none">
-            © 2025 Tergo Energy
+            © 2025 Tergo Energy Limited
           </p>
           <p className="justify-start text-white text-sm md:text-base font-light font-['Poppins'] leading-none">
             Privacy Policy

@@ -10,12 +10,12 @@ import { RxArrowTopRight } from "react-icons/rx";
 import { HiMenu, HiX } from "react-icons/hi";
 
 const navData = [
+  // {
+  //   text: "Home",
+  //   path: "/",
+  // },
   {
-    text: "Home",
-    path: "/",
-  },
-  {
-    text: "About",
+    text: "About Us",
     path: "/about",
   },
   {
@@ -33,20 +33,20 @@ const navData = [
         text: "Multigas Systems",
         path: "/our-businesses/multigas-systems",
       },
-      {
-        text: "Projects",
-        path: "/our-businesses/projects",
-      },
     ],
+  },
+  {
+    text: "Our Projects",
+    path: "/projects",
   },
   // {
   //   text: "News",
   //   path: "/news",
   // },
-  {
-    text: "Contact Us",
-    path: "/contact",
-  },
+  // {
+  //   text: "Contact Us",
+  //   path: "/contact",
+  // },
 ];
 
 const Navbar = () => {
@@ -181,7 +181,7 @@ const Navbar = () => {
             <div className="p-[5px] bg-primaryGreen rounded-full">
               <button className="bg-white text-green-600 flex gap-2 items-center rounded-full px-4 py-2 md:px-[30px] md:py-[10px]">
                 <p className="justify-start text-BHL-Color text-sm md:text-base font-semibold font-['Poppins']">
-                  Discuss With Us
+                  Contact Us
                 </p>
                 <span>
                   <RxArrowTopRight size={20} className="md:size-[25px]" />

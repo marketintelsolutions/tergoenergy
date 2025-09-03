@@ -3,11 +3,13 @@ import Banner from "../components/Landing/Banner";
 import WeBelieveSection from "../components/Landing/WeBelieveSection";
 import BringingItTogether from "../components/Landing/BringingItTogether";
 import StayUpdated from "../components/Landing/StayUpdated";
+import WhoWeAre from "../components/Landing/WhoWeAre";
 
 const Landing = () => {
   return (
     <div className="">
       <Banner />
+      <WhoWeAre />
       {/* <WeBelieveSection /> */}
       <BringingItTogether />
       <StayUpdated />

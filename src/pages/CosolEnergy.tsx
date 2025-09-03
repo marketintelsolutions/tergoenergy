@@ -7,41 +7,41 @@ import { Link } from "react-router-dom";
 const CosolEnergy = () => {
   const renewableServices = [
     {
-      title: "Renewable Energy Installation",
+      title: "Solar & Battery Storage Systems",
       description:
-        "Expert installation of solar panels, wind turbines, and other renewable energy systems with comprehensive site assessment and optimization.",
+        "From rooftop solar to large-scale industrial PV plants, integrated with reliable battery storage for 24/7 power security.",
       icon: "solar-panel",
     },
     {
-      title: "Customized Energy Solutions",
+      title: "Perimeter & Street Lighting",
       description:
-        "Tailored renewable energy systems designed specifically for residential, commercial, and industrial applications to meet unique energy requirements.",
+        "Sustainable and autonomous solar-powered lighting solutions for enhanced security, safety, and community development.",
       icon: "custom-energy",
     },
     {
-      title: "Power Audit",
+      title: "Energy Efficiency & Management",
       description:
-        "Comprehensive assessments to identify inefficiencies and optimize energy consumption with detailed reports and actionable insights.",
+        "Expert audits and smart technology implementations to optimize energy consumption and reduce waste.",
       icon: "audit",
     },
     {
-      title: "Energy Consultation",
+      title: "E-Mobility Infrastructure",
       description:
-        "Strategic advice on energy solutions, feasibility studies, and system design to help clients make informed decisions aligned with sustainability goals.",
+        " Future-proof infrastructure solutions, including EV charging stations, to support the growing electric transportation ecosystem.",
       icon: "consultation",
     },
     {
-      title: "Energy Storage Solutions",
+      title: "Consulting & Implementation",
       description:
-        "Advanced battery storage systems and backup solutions to maximize renewable energy benefits and ensure power availability when needed.",
+        "End-to-end project management, from feasibility studies and design to installation, maintenance, and support.",
       icon: "battery",
     },
-    {
-      title: "Maintenance & Support",
-      description:
-        "Ongoing system performance management with regular inspections, monitoring, and rapid response to ensure uninterrupted clean energy.",
-      icon: "maintenance",
-    },
+    // {
+    //   title: "Maintenance & Support",
+    //   description:
+    //     "Ongoing system performance management with regular inspections, monitoring, and rapid response to ensure uninterrupted clean energy.",
+    //   icon: "maintenance",
+    // },
   ];
 
   const cosolAdvantages = [
@@ -52,10 +52,10 @@ const CosolEnergy = () => {
   ];
 
   const projectServices = [
-    "Site assessments to determine feasibility and energy potential",
-    "Custom system design tailored to unique energy needs",
-    "Permit acquisition and regulatory approvals",
-    "Coordination with local utilities and authorities",
+    "Individuals & Homes",
+    "SMEs & Corporates",
+    "Industries & Institutions",
+    "EV Distributors & Fleets",
   ];
 
   return (
@@ -63,7 +63,7 @@ const CosolEnergy = () => {
       <Banner
         img={"cosolbanner.jpg"}
         text="COSOL Energy Solution Limited"
-        desc="Whether you're looking to power a small home, a large industrial facility, or anything in between, we design and implement systems that deliver sustainable energy tailored to your situation."
+        desc="Powering Progress with Intelligent Renewable Energy Solutions"
       />
 
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
@@ -75,20 +75,21 @@ const CosolEnergy = () => {
           />
           <div className="flex-1">
             <h3 className="text-cosolYellow text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10">
-              COSOL Energy Solution Limited
+              We design and deliver sustainable energy systems
             </h3>
             <p className="max-w-[836px] mt-6 md:mt-12 lg:mt-[50px] text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[47px]">
-              At COSOL Energy, we are committed to delivering top-tier renewable
-              energy solutions that drive sustainability and efficiency. Our
-              comprehensive range of services is designed to meet the unique
-              energy needs of both residential and commercial clients.
+              COSOL Energy Solutions Limited is a leading renewable energy
+              partner dedicated to building a cleaner, more resilient, and
+              efficient energy future. We provide comprehensive, customized
+              solutions that reduce carbon footprints, lower energy costs, and
+              ensure uninterrupted power for a diverse clientele—from
+              individuals and SMEs to large corporations, industries, and public
+              institutions.
             </p>
             <p className="self-stretch mt-6 md:mt-10 text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[47px]">
-              We specialize in developing customized renewable energy solutions
-              that cater specifically to your requirements. Whether you're
-              looking to power a small home, a large industrial facility, or
-              anything in between, we design and implement systems that deliver
-              sustainable energy tailored to your situation.
+              Our expertise lies in understanding your unique energy challenges
+              and designing systems that deliver reliability, sustainability,
+              and significant return on investment.
             </p>
           </div>
         </div>
@@ -116,11 +117,10 @@ const CosolEnergy = () => {
         {/* Project Development Section */}
         <div className="bg-lightGreen/20 rounded-[25px] md:rounded-[50px] p-8 md:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)] mb-12 md:mb-20">
           <h3 className="text-primaryGreen text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10 mb-6 md:mb-8 text-center">
-            Project Development
+            Who We Serve
           </h3>
           <p className="text-ash-g-Color text-lg md:text-xl font-normal font-['Inter'] leading-relaxed md:leading-[32px] mb-8 md:mb-10 text-center">
-            We handle every aspect of solar project planning, ensuring
-            efficiency and compliance.
+            We deliver tailored energy solutions across the spectrum
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {projectServices.map((service, index) => (
@@ -155,17 +155,23 @@ const CosolEnergy = () => {
 
           <div className="w-full xl:w-[60%] max-w-[1020px] px-6 md:px-12 lg:px-24 py-12 md:py-24 lg:py-28 bg-white/90 rounded-[25px] md:rounded-[50px] flex flex-col gap-6 md:gap-8 lg:gap-10">
             <div className="text-zinc-900 text-lg md:text-xl lg:text-3xl font-medium font-['Poppins'] leading-tight md:leading-8 lg:leading-9">
-              Professional Installation & Support
+              Why Partner with COSOL?
             </div>
             <div className="text-ash-g-Color text-sm md:text-base lg:text-lg font-normal font-['Inter'] leading-relaxed md:leading-7 lg:leading-9">
-              Our installation process guarantees optimal performance and
-              durability. We provide high-quality solar panels and equipment
-              procurement, precision installation by experienced professionals,
-              compliance with industry standards and safety regulations, and
-              thorough testing and commissioning for system efficiency. Maximize
-              the lifespan and performance of your renewable energy system with
-              our expert maintenance services including real-time monitoring,
-              scheduled servicing, troubleshooting, and system upgrades.
+              Our team manages your entire project lifecycle, ensuring seamless
+              integration and peak performance.
+              <br />
+              <br />
+              We don’t believe in one-size-fitsall. Every system is customized
+              to your specific site, needs, and goals.
+              <br />
+              <br />
+              We partner with top-tier global technology providers to deliver
+              systems built for durability and maximum efficiency.
+              <br />
+              <br />
+              Our relationship continues long after installation with support
+              and optimization services.
             </div>
           </div>
         </div>
@@ -173,11 +179,11 @@ const CosolEnergy = () => {
         {/* Call to Action */}
         <div className="text-center">
           <h3 className="text-primaryGreen text-2xl md:text-3xl lg:text-4xl font-bold font-['Poppins'] leading-tight md:leading-[1.2] lg:leading-[48px] mb-4 md:mb-6">
-            Get Started Today!
+            Ready to transform your energy future?
           </h3>
           <p className="text-ash-g-Color text-lg md:text-xl font-normal font-['Inter'] leading-relaxed md:leading-[32px] mb-8 md:mb-10">
-            Contact us today for a consultation and take the first step toward a
-            greener, cost-effective energy future.
+            Contact our experts to begin your journey toward a smarter, more
+            sustainable energy solution.
           </p>
           <Link to={"/contact"}>
             <button className="bg-cosolYellow text-white px-8 md:px-12 py-3 md:py-4 rounded-[15px] text-lg md:text-xl font-semibold font-['Poppins'] hover:bg-cosolYellow/90 transition-colors">
