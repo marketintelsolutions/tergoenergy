@@ -4,6 +4,7 @@ import OurPortfolio from "../components/Landing/OurPortfolio";
 import { FaFireAlt, FaRegSnowflake } from "react-icons/fa";
 import { GiElectric, GiRiceCooker } from "react-icons/gi";
 import { MdOutlineLocalShipping } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const MultigasSystems = () => {
   const gasApplications = [
@@ -272,9 +273,11 @@ Modern Living & Industry"
             Contact Us for a free consultation and let us design a custom gas
             application solution for you.
           </p>
-          <button className="bg-multigasGreen text-white px-8 md:px-12 py-3 md:py-4 rounded-[15px] text-lg md:text-xl font-semibold font-['Poppins'] hover:bg-multigasGreen/90 transition-colors">
-            Contact MULTIGAS Today
-          </button>
+          <Link to={"/contact"}>
+            <button className="bg-multigasGreen text-white px-8 md:px-12 py-3 md:py-4 rounded-[15px] text-lg md:text-xl font-semibold font-['Poppins'] hover:bg-multigasGreen/90 transition-colors">
+              Contact MULTIGAS Today
+            </button>
+          </Link>
         </div>
       </div>
       <OurPortfolio />
