@@ -175,7 +175,7 @@ const Navbar = () => {
 
           {/* Get Started Button */}
           <Link
-            to={"/contact#discuss"}
+            to={"/contact"}
             className="p-[2px] bg-gradient-to-tr transition-all transition-discrete duration-100 ease-out delay-75 hover:from-[#C9C9C900] from-[#FFFFFF] rounded-full to-[#C9C9C900] hover:to-[#FFFFFF]"
           >
             <div className="p-[5px] bg-primaryGreen rounded-full">
