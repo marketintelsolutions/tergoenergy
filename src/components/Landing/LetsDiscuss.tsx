@@ -84,11 +84,7 @@ const LetsDiscuss = () => {
               <option value="">Energy Management</option>
               <option value="">Partner with us</option>
             </select>
-            <input
-              type="text"
-              className="w-full bg-[#FAF6FF] px-6 md:px-8 lg:px-[30px] py-4 md:py-5 lg:py-[22px] rounded-[15px] text-sm md:text-base"
-              placeholder="Service Enquiry"
-            />
+
             <textarea
               name="message"
               placeholder="Leave a Message"
