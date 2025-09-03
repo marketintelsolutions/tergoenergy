@@ -60,7 +60,7 @@ const PoweringAfrica = () => {
                 key={index}
                 className={`flex gap-2 items-center ${
                   activeIndex === index
-                    ? "text-white/80 font-bold"
+                    ? "text-secondaryGreen font-bold"
                     : "text-white"
                 }`}
               >
