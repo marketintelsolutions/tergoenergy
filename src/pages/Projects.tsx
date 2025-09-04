@@ -34,6 +34,13 @@ const Projects = () => {
     },
   ];
 
+  const otherProjects = [
+    "Sage Diagnostics 15kva Installation",
+    "Lifeline Pharma 5kva Installation",
+    "Residential Installations 5kva Installation, 3.5kva Installation",
+    "Perimeter Lighting for Ogun State Hospital Abeokuta",
+  ];
+
   const serviceAreas = [
     "Solar Energy Projects",
     "Gas Infrastructure Development",
@@ -105,6 +112,23 @@ const Projects = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="bg-lightGreen/10 rounded-[25px] md:rounded-[50px] p-8 md:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)] mb-12 md:mb-20">
+          <h3 className="text-primaryGreen text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10 mb-6 md:mb-8 text-center">
+            Other Projects
+          </h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            {otherProjects.map((service, index) => (
+              <div key={index} className="flex items-start gap-4">
+                <div className="w-3 h-3 bg-secondaryGreen rounded-full mt-2 flex-shrink-0"></div>
+                <span className="text-ash-g-Color text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-[28px]">
+                  {service}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Service Areas */}

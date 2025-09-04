@@ -68,7 +68,7 @@ const LetsDiscuss = () => {
               name="enquiry"
               id="enquiry"
             >
-              <option disabled value="">
+              <option disabled selected value="">
                 Service Enquiry
               </option>
               <option value="">Gas Delivery (LPG (Butane) and Propane)</option>
