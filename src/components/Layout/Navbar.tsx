@@ -22,11 +22,11 @@ const navData = [
     text: "Our Businesses",
     items: [
       {
-        text: "Nexus Gas",
+        text: "Nexus Gas Trading",
         path: "/our-businesses/nexus-gas",
       },
       {
-        text: "Cosol Energy",
+        text: "Cosol Energy Solutions",
         path: "/our-businesses/cosol-energy",
       },
       {
@@ -84,7 +84,7 @@ const Navbar = () => {
                 <MdPhoneInTalk />
               </span>
               <p className="justify-start  text-primaryGreen text-base font-medium font-['Poppins'] leading-tight">
-                +234 800 300 3000
+                +234 810 928 8365, +234 906 123 6156
               </p>
             </div>
           </div>
@@ -175,7 +175,7 @@ const Navbar = () => {
 
           {/* Get Started Button */}
           <Link
-            to={"/contact#discuss"}
+            to={"/contact"}
             className="p-[2px] bg-gradient-to-tr transition-all transition-discrete duration-100 ease-out delay-75 hover:from-[#C9C9C900] from-[#FFFFFF] rounded-full to-[#C9C9C900] hover:to-[#FFFFFF]"
           >
             <div className="p-[5px] bg-primaryGreen rounded-full">

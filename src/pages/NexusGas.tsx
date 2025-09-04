@@ -108,7 +108,7 @@ const NexusGas = () => {
           {gasServices.map((service, index) => (
             <div
               key={index}
-              className="bg-lightGreen/20 rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)]"
+              className="bg-nexusBlue/10 rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)]"
             >
               <h3 className="text-nexusBlue text-xl md:text-2xl lg:text-3xl font-bold font-['Inter'] leading-tight md:leading-8 lg:leading-10 mb-4 md:mb-6">
                 {service.title}
