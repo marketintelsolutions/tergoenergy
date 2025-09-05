@@ -69,7 +69,7 @@ const CosolEnergy = () => {
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
         <div className="flex flex-col lg:flex-row gap-8 md:gap-16 mb-12 md:mb-20">
           <img
-            src="/images/windturbine.jpg"
+            src="/images/solarvehicle.jpg"
             alt="renewable energy systems"
             className="w-full lg:w-[40%] max-w-[685px] object-cover rounded-[20px] md:rounded-[30px]"
           />

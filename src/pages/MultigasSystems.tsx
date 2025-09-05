@@ -273,7 +273,7 @@ Modern Living & Industry"
             Contact Us for a free consultation and let us design a custom gas
             application solution for you.
           </p>
-          <Link to={"/contact"}>
+          <Link to={"/contact#discuss"}>
             <button className="bg-multigasGreen text-white px-8 md:px-12 py-3 md:py-4 rounded-[15px] text-lg md:text-xl font-semibold font-['Poppins'] hover:bg-multigasGreen/90 transition-colors">
               Contact MULTIGAS Today
             </button>

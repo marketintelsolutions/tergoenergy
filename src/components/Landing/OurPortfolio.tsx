@@ -3,7 +3,7 @@ import PortfolioItem from "./PortfolioItem";
 
 const portfolio = [
   {
-    img: "nexusbusiness",
+    img: "nexusbanner",
     icon: "gas",
     text: "NEXUS GAS TRADING LIMITED",
     desc:

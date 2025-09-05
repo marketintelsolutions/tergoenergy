@@ -31,7 +31,7 @@ const PoweringAfrica = () => {
     <div
       className=" relative py-12 md:py-16 lg:py-[100px]"
       style={{
-        backgroundImage: `url(/images/caro3.png)`,
+        backgroundImage: `url(/images/caro1.jpg)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         // backgroundPosition: "center",

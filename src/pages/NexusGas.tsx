@@ -68,7 +68,7 @@ const NexusGas = () => {
   return (
     <div className=" pb-10 md:pb-20">
       <Banner
-        img={"nexusbanner.jpg"}
+        img={"nexusbus.jpg"}
         text="Nexus Gas Trading Limited"
         desc="Reliable Gas Solutions for Every Need"
       />
@@ -76,7 +76,7 @@ const NexusGas = () => {
       <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto my-12 md:my-20 lg:my-[100px]">
         <div className="flex flex-col lg:flex-row gap-8 md:gap-16 mb-12 md:mb-20">
           <img
-            src="/images/oilfactory.jpg"
+            src="/images/cylinder.jpg"
             alt="gas infrastructure"
             className="w-full lg:w-[40%] max-w-[685px] object-cover rounded-[20px] md:rounded-[30px]"
           />
