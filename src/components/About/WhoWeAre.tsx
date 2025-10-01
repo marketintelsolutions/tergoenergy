@@ -13,7 +13,7 @@ const WhoWeAre = () => {
         </div>
         <div className="h-full w-full lg:w-[55%] max-w-[800px]">
           <h2 className="justify-start text-ash-g-Color text-xl md:text-3xl lg:text-4xl font-bold font-['Inter'] leading-tight md:leading-[1.2] lg:leading-11">
-            About Tergo Energy
+            About Tergo Energy Limited
           </h2>
           <p className="mt-4 md:mt-6 lg:mt-[30px] text-justify justify-start text-black text-base md:text-lg lg:text-[20px] font-normal font-['Poppins'] leading-relaxed md:leading-8 lg:leading-[35.68px]">
             Tergo Energy Limited, a subsidiary of PanAfrican Capital Holdings

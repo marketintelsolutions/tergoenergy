@@ -68,7 +68,7 @@ const NexusGas = () => {
   return (
     <div className=" pb-10 md:pb-20">
       <Banner
-        img={"nexusbus.jpg"}
+        img={"nexusbanner.jpg"}
         text="Nexus Gas Trading Limited"
         desc="Reliable Gas Solutions for Every Need"
       />

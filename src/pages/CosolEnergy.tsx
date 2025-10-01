@@ -62,7 +62,7 @@ const CosolEnergy = () => {
     <div className=" pb-10 md:pb-20">
       <Banner
         img={"cosolbanner.jpg"}
-        text="COSOL Energy Solution Limited"
+        text="COSOL Energy Solutions Limited"
         desc="Powering Progress with Intelligent Renewable Energy Solutions"
       />
 

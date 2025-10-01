@@ -12,9 +12,9 @@ const portfolio = [
     color: "#056cf2",
   },
   {
-    img: "cosolbusiness",
+    img: "cosolbanner",
     icon: "energy",
-    text: "COSOL ENERGY SOLUTION LIMITED",
+    text: "COSOL ENERGY SOLUTIONS LIMITED",
     desc:
       "We specialize in developing customized renewable energy solutions that cater specifically to your requirements. ",
     link: "/our-businesses/cosol-energy",

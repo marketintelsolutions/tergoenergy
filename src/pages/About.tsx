@@ -10,7 +10,7 @@ import PoweringAfrica from "../components/Landing/PoweringAfrica";
 const About = () => {
   return (
     <div className="pb-[100px]">
-      <SharedBanner img={"aboutbanner"} text="ABOUT" />
+      <SharedBanner img={"aboutbanner"} text="ABOUT US" />
       <WhoWeAre />
       <OurValues />
       <OurPortfolio />
