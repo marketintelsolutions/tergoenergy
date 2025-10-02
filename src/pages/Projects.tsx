@@ -13,7 +13,7 @@ const Projects = () => {
       category: "Commercial Solar Installation",
       description:
         "Comprehensive renewable energy solution for corporate headquarters featuring advanced solar panel systems and energy storage solutions.",
-      image: "/images/pacannex.jpg",
+      image: "/images/invertersystems.jpg",
       status: "Completed",
       items: [
         "Sage Diagnostics, Lekki Phase 1 – 15KVA Installation",
@@ -26,7 +26,7 @@ const Projects = () => {
       category: "Energy Infrastructure",
       description:
         "Complete energy infrastructure development including gas supply systems and renewable energy integration for efficient operations.",
-      image: "/images/pacho.jpg",
+      image: "/images/streetsolar.jpg",
       status: "Completed",
       items: ["Lola’s Garden, Ikoyi", "Ogun State Hospital, Abeokuta"],
     },
