@@ -248,15 +248,21 @@ Modern Living & Industry"
               Why Choose MULTIGAS?
             </div>
             <div className="text-black text-sm md:text-base lg:text-lg font-normal font-['Inter'] leading-relaxed md:leading-6 lg:leading-8">
+              <span className="font-semibold">
+                Custom-Engineered Solutions:{" "}
+              </span>
               We design systems specific to your site and needs.
               <br />
               <br />
-              End-to-End Service from concept to commissioning and beyond.
+              <span className="font-semibold">End-to-End Service: </span>
+              From concept to commissioning and beyond.
               <br />
               <br />
+              <span className="font-semibold">Uncompromising Safety: </span>
               All installations adhere to international safety standards.
               <br />
               <br />
+              <span className="font-semibold">Operational Efficiency: </span>
               Our systems are designed to reduce energy costs and improve
               sustainability
             </div>

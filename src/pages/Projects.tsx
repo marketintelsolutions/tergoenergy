@@ -9,28 +9,26 @@ import Button from "../components/ui/Button";
 const Projects = () => {
   const projects = [
     {
-      title: "PanAfrican Capital Holdings Number 09 Annex",
+      title: "Solar Inverters and Battery Back Up system",
       category: "Commercial Solar Installation",
       description:
         "Comprehensive renewable energy solution for corporate headquarters featuring advanced solar panel systems and energy storage solutions.",
       image: "/images/pacannex.jpg",
       status: "Completed",
+      items: [
+        "Sage Diagnostics, Lekki Phase 1 – 15KVA Installation",
+        "PanAfrican Capital Holdings, Victoria Island – 20Kva Installation",
+        "Residential Clients – Combined installation of 17Kva",
+      ],
     },
     {
-      title: "PanAfrican Capital Holdings Head Office",
+      title: "Solar Powered Perimeter and Street Lighting",
       category: "Energy Infrastructure",
       description:
         "Complete energy infrastructure development including gas supply systems and renewable energy integration for efficient operations.",
       image: "/images/pacho.jpg",
       status: "Completed",
-    },
-    {
-      title: "Lola's Garden",
-      category: "Residential Energy Solutions",
-      description:
-        "Sustainable energy solutions for residential complex including solar installations, gas supply systems, and energy optimization.",
-      image: "/images/lolagarden.jpg",
-      status: "Completed",
+      items: ["Lola’s Garden, Ikoyi", "Ogun State Hospital, Abeokuta"],
     },
   ];
 
@@ -58,14 +56,11 @@ const Projects = () => {
         {/* Introduction */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="justify-start text-primaryGreen text-center mt-12 md:mt-20 lg:mt-[95px] text-2xl md:text-4xl lg:text-5xl font-semibold font-['Poppins'] leading-tight md:leading-[1.2] lg:leading-[105px]">
-            Case Studies & Project Gallery
+            Project Gallery
           </h2>
 
           <p className="max-w-[95%] md:max-w-[90%] mx-auto mt-4 md:mt-6 lg:mt-[18px] opacity-80 text-center justify-start text-black text-base md:text-lg font-normal font-['Poppins'] leading-relaxed md:leading-7">
-            Explore our portfolio of successful energy projects across Nigeria
-            and West Africa. From solar energy installations to comprehensive
-            gas infrastructure development, see how we're advancing Africa's
-            energy transition.
+            Explore our portfolio of successful energy projects.
           </p>
         </div>
 
@@ -89,20 +84,31 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full lg:w-[55%] flex flex-col justify-start">
-                  <div className="mb-4 flex flex-wrap gap-2">
+                  {/* <div className="mb-4 flex flex-wrap gap-2">
                     <span className="bg-green-600 text-white px-3 md:px-4 py-1 md:py-2 rounded-[15px] text-xs md:text-sm font-semibold">
                       {project.status}
                     </span>
                     <span className="bg-zinc-100 text-primaryGreen px-3 md:px-4 py-1 md:py-2 rounded-[15px] text-xs md:text-sm font-semibold">
                       {project.category}
                     </span>
-                  </div>
+                  </div> */}
                   <h3 className="text-primaryGreen text-xl md:text-2xl lg:text-3xl font-bold font-['Inter'] leading-tight md:leading-8 lg:leading-10 mb-3 md:mb-4">
                     {project.title}
                   </h3>
-                  <p className="text-ash-g-Color text-base md:text-lg lg:text-xl font-normal font-['Inter'] leading-relaxed md:leading-7 lg:leading-[32px] mb-6 md:mb-8">
-                    {project.description}
-                  </p>
+                  <div className="flex flex-col gap-4 mb-6 md:mb-8">
+                    {project.items.map((item, index) => (
+                      <div className="flex items-center gap-2">
+                        <span className="inline-flex h-2 w-2 bg-primaryGreen rounded-full"></span>
+                        <p
+                          key={index}
+                          className="text-ash-g-Color text-base md:text-lg lg:text-xl font-normal font-['Inter'] leading-relaxed md:leading-7 lg:leading-[32px] "
+                        >
+                          {item}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+
                   {/* <Button
                     width="auto"
                     className="max-w-[260px]"
@@ -114,7 +120,7 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="bg-lightGreen/10 rounded-[25px] md:rounded-[50px] p-8 md:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)] mb-12 md:mb-20">
+        {/* <div className="bg-lightGreen/10 rounded-[25px] md:rounded-[50px] p-8 md:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)] mb-12 md:mb-20">
           <h3 className="text-primaryGreen text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10 mb-6 md:mb-8 text-center">
             Other Projects
           </h3>
@@ -129,10 +135,10 @@ const Projects = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Service Areas */}
-        <div className="bg-lightGreen/10 rounded-[25px] md:rounded-[50px] p-8 md:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)] mb-12 md:mb-20">
+        {/* <div className="bg-lightGreen/10 rounded-[25px] md:rounded-[50px] p-8 md:p-12 shadow-[0px_69px_114px_rgba(58,64,58,0.08)] mb-12 md:mb-20">
           <h3 className="text-primaryGreen text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10 mb-6 md:mb-8 text-center">
             Our Project Expertise
           </h3>
@@ -155,7 +161,7 @@ const Projects = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Call to Action */}
         <div className="bg-primaryGreen rounded-[25px] md:rounded-[50px] py-12 md:py-16 px-8 md:px-12 text-center">

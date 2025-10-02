@@ -22,15 +22,15 @@ const navData = [
     text: "Our Businesses",
     items: [
       {
-        text: "Nexus Gas Trading",
+        text: "Nexus Gas Trading Ltd",
         path: "/our-businesses/nexus-gas",
       },
       {
-        text: "Cosol Energy Solutions",
+        text: "Cosol Energy Solutions Ltd",
         path: "/our-businesses/cosol-energy",
       },
       {
-        text: "Multigas Systems",
+        text: "Multigas Systems Ltd",
         path: "/our-businesses/multigas-systems",
       },
     ],

@@ -3,6 +3,7 @@ import BringingItTogether from "../components/Landing/BringingItTogether";
 import Banner from "../components/OurBusinesses/Banner";
 import OurPortfolio from "../components/Landing/OurPortfolio";
 import { Link } from "react-router-dom";
+import { GoZap } from "react-icons/go";
 
 const CosolEnergy = () => {
   const renewableServices = [
@@ -101,8 +102,10 @@ const CosolEnergy = () => {
               key={index}
               className="bg-cosolYellow/10 rounded-[20px] md:rounded-[30px] p-6 md:p-8 shadow-[0px_69px_114px_rgba(58,64,58,0.08)]"
             >
-              <div className="w-12 h-12 md:w-16 md:h-16 bg-primaryGreen rounded-full flex items-center justify-center mb-4 md:mb-6">
-                <span className="text-white text-xl md:text-2xl">⚡</span>
+              <div className="w-12 h-12 md:w-16 md:h-16 bg-cosolYellow rounded-full flex items-center justify-center mb-4 md:mb-6">
+                <span className="text-white text-xl md:text-2xl">
+                  <GoZap />
+                </span>
               </div>
               <h3 className="text-cosolYellow text-lg md:text-xl font-bold font-['Inter'] leading-tight md:leading-8 mb-3 md:mb-4">
                 {service.title}
@@ -158,20 +161,32 @@ const CosolEnergy = () => {
               Why Partner with COSOL?
             </div>
             <div className="text-ash-g-Color text-sm md:text-base lg:text-lg font-normal font-['Inter'] leading-relaxed md:leading-7 lg:leading-9">
-              Our team manages your entire project lifecycle, ensuring seamless
-              integration and peak performance.
+              <p>
+                <span className="font-semibold">End-to-End Expertise: </span>
+                Our team manages your entire project lifecycle, ensuring
+                seamless integration and peak performance.
+              </p>
               <br />
               <br />
-              We don’t believe in one-size-fitsall. Every system is customized
-              to your specific site, needs, and goals.
+              <p>
+                <span className="font-semibold">Customized Solutions: </span>
+                We don’t believe in one-size-fitsall. Every system is customized
+                to your specific site, needs, and goals.
+              </p>
               <br />
               <br />
-              We partner with top-tier global technology providers to deliver
-              systems built for durability and maximum efficiency.
+              <p>
+                <span className="font-semibold">Quality & Reliability: </span>
+                We partner with top-tier global technology providers to deliver
+                systems built for durability and maximum efficiency.
+              </p>
               <br />
               <br />
-              Our relationship continues long after installation with support
-              and optimization services.
+              <p>
+                <span className="font-semibold">Long-Term Partnership: </span>
+                Our relationship continues long after installation with support
+                and optimization services.
+              </p>
             </div>
           </div>
         </div>

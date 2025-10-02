@@ -1,13 +1,14 @@
 import React from "react";
 
-const SharedBanner: React.FC<{ img?: string | null; text: string }> = ({
-  img = "aboutbanner",
-  text,
-}) => {
+const SharedBanner: React.FC<{
+  img?: string | null;
+  text: string;
+  imgType?: string;
+}> = ({ img = "aboutbanner", text, imgType = "jpg" }) => {
   return (
     <section
       style={{
-        backgroundImage: `url(/images/${img}.jpg)`,
+        backgroundImage: `url(/images/${img}.${imgType})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
