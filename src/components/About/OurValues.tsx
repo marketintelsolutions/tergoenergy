@@ -78,14 +78,14 @@ const OurValues = () => {
                 key={index}
                 className="relative flex flex-col gap-3 md:gap-3"
               >
-                <div className="hidden sm:flex absolute z-[1] -left-[100px] top-0 bg-secondaryGreen w-14 h-14 rounded-full"></div>
+                <div className="hidden md:flex absolute z-[1] -left-[100px] top-0 bg-secondaryGreen w-14 h-14 rounded-full"></div>
                 <h2 className="text-left text-secondaryGreen text-2xl md:text-3xl font-bold font-['Inter'] md:leading-10">
                   {item.heading}
                 </h2>
                 <p className="z-[2] relative opacity-80 text-black text-[14px] md:text-[17px] font-normal font-['Inter'] leading-loose">
                   {item.text}
                   {index !== values.length - 1 && (
-                    <div className="hidden sm:flex absolute z-[2] -top-[20%] h-[162%] w-14 -left-[100px] flex-col items-center">
+                    <div className="hidden md:flex absolute z-[2] -top-[20%] h-[162%] w-14 -left-[100px] flex-col items-center">
                       <div className="w-2 h-2 rounded-full bg-primaryGreen"></div>
                       <div className="w-[1px] h-full bg-primaryGreen"></div>
                       <div className="w-2 h-2 rounded-full bg-primaryGreen"></div>

@@ -86,7 +86,7 @@ const OurTeam = () => {
         advancing Africa's clean energy transition.
       </p>
       <div className=" pb-8 md:pb-12 lg:pb-[70px] px-4 md:px-8 lg:px-[80px]">
-        <div className=" w-[95%] xl:w-[95%] max-w-[1400px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-0 md:gap-y-0 lg:gap-y-[4px] gap-6 md:gap-8 lg:gap-[50px] items-center mx-auto">
+        <div className=" w-[95%] xl:w-[95%] max-w-[1400px] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-y-0 md:gap-y-0 lg:gap-y-[4px] gap-6 md:gap-8 lg:gap-[50px] items-center mx-auto">
           {boardMembers.map((member, index) => (
             <TeamItem
               key={index}

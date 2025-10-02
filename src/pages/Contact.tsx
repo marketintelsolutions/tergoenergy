@@ -22,50 +22,16 @@ const Contact = () => {
 
   return (
     <div className=" pb-12 md:pb-20 lg:pb-[100px]">
-      <SharedBanner img={"contact"} text="CONTACT US" />
+      <SharedBanner img={"glassesgirl"} text="CONTACT US" imgType="png" />
 
-      <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto mt-8 md:mt-12 lg:mt-[60px] flex flex-col lg:flex-row justify-between gap-8 md:gap-12">
+      {/* <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto mt-8 md:mt-12 lg:mt-[60px] flex flex-col lg:flex-row justify-between gap-8 md:gap-12">
         <img
           src="/images/glassesgirl.png"
           alt="girl with glasses"
           className="w-full lg:max-w-[655px] h-[250px] md:h-[350px] lg:h-auto object-cover rounded-[20px] md:rounded-[30px]"
         />
-        <div className="w-full lg:max-w-[898px] bg-primaryGreen rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:px-[48px] flex flex-col justify-center">
-          <div className="flex flex-col gap-4 md:gap-8">
-            <div className="flex items-center gap-3">
-              <span>
-                <IoMail color="green" size={30} />
-              </span>
-              <a href="mailto:info@tergoenergy.com">
-                <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
-                  info@tergoenergy.com
-                </span>
-              </a>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <span>
-                <FaPhone color="green" size={30} />
-              </span>
-              <a href="tel:+2348003003000">
-                <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
-                  +234 810 928 8365,
-                  <br /> +234 906 123 6156
-                </span>
-              </a>
-            </div>
-            <div className="flex items-start gap-3">
-              <span>
-                <IoLocation color="green" size={30} />
-              </span>
-              <span className="text-white text-base md:text-lg lg:text-xl font-medium font-['Poppins'] ">
-                9 Elsie Femi Pearse, Off Adeola Odeku, Victoria Island, Lagos,
-                Nigeria
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+        <div className="w-full lg:max-w-[898px] bg-primaryGreen rounded-[20px] md:rounded-[30px] p-6 md:p-8 lg:px-[48px] flex flex-col justify-center"></div>
+      </div> */}
 
       <div ref={discussRef}>
         <LetsDiscuss />

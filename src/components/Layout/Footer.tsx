@@ -26,27 +26,23 @@ const footerData = [
       },
     ],
   },
-  // {
-  //   heading: "Company",
-  //   items: [
-  //     {
-  //       text: "Nexus Gas",
-  //       path: "/our-businesses/nexus-gas",
-  //     },
-  //     {
-  //       text: "Cosol Energy",
-  //       path: "/our-businesses/cosol-energy",
-  //     },
-  //     {
-  //       text: "Multigas Systems",
-  //       path: "/our-businesses/multigas-systems",
-  //     },
-  //     {
-  //       text: "Projects",
-  //       path: "/projects",
-  //     },
-  //   ],
-  // },
+  {
+    heading: "Our Businesses",
+    items: [
+      {
+        text: "Nexus Gas Trading Ltd",
+        path: "/our-businesses/nexus-gas",
+      },
+      {
+        text: "Cosol Energy Solutions Ltd",
+        path: "/our-businesses/cosol-energy",
+      },
+      {
+        text: "Multigas Systems Ltd",
+        path: "/our-businesses/multigas-systems",
+      },
+    ],
+  },
 ];
 
 const Footer = () => {

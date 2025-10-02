@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaPhone, FaXTwitter } from "react-icons/fa6";
+import { IoLocation, IoMail } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 const LetsDiscuss = () => {
@@ -19,7 +20,39 @@ const LetsDiscuss = () => {
             systems tailored to your needs.
           </p>
           <div className="w-20 md:w-24 h-[3px] mt-8 md:mt-12 lg:mt-20 bg-gradient-to-l from-zinc-400 to-violet-50/30 rounded-full" />
+          <div className="flex mt-10 flex-col gap-4 md:gap-8">
+            <div className="flex items-center gap-3">
+              <span>
+                <IoMail color="green" size={30} />
+              </span>
+              <a href="mailto:info@tergoenergy.com">
+                <span className="text-black text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
+                  info@tergoenergy.com
+                </span>
+              </a>
+            </div>
 
+            <div className="flex items-center gap-3">
+              <span>
+                <FaPhone color="green" size={30} />
+              </span>
+              <a href="tel:+2348003003000">
+                <span className="text-black text-base md:text-lg lg:text-xl font-medium font-['Poppins'] leading-relaxed md:leading-8 lg:leading-10">
+                  +234 810 928 8365,
+                  <br /> +234 906 123 6156
+                </span>
+              </a>
+            </div>
+            <div className="flex items-start gap-3">
+              <span>
+                <IoLocation color="green" size={30} />
+              </span>
+              <span className="text-black text-base md:text-lg lg:text-xl font-medium font-['Poppins'] ">
+                9 Elsie Femi Pearse, Off Adeola Odeku, Victoria Island, Lagos,
+                Nigeria
+              </span>
+            </div>
+          </div>
           <div className="flex gap-[22px] text-2xl mt-8 md:mt-12 lg:mt-20 text-primaryGreen items-center">
             <span className="p-2 border border-primaryGreen rounded-full">
               <FaFacebookF />

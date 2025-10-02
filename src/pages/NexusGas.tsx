@@ -82,7 +82,8 @@ const NexusGas = () => {
           />
           <div className="flex-1">
             <h3 className="text-nexusBlue text-2xl md:text-3xl font-bold font-['Inter'] leading-tight md:leading-10">
-              Powering Homes, Businesses, and Industries
+              Powering Homes, Businesses, and Industries with Safe, Efficient,
+              and Uninterrupted Gas Supply.
             </h3>
             <p className="max-w-[836px] mt-6 md:mt-12 lg:mt-[50px] text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[47px]">
               Nexus Gas Trading Limited is focused on delivering tailored energy
@@ -93,12 +94,12 @@ const NexusGas = () => {
             </p>
             <p className="self-stretch mt-6 md:mt-10 text-ash-g-Color text-lg md:text-xl lg:text-[22px] font-normal font-['Inter'] leading-relaxed md:leading-9 lg:leading-[47px]">
               Our core strength lies in our robust supply chain and
-              customer-centric approach. We structure Gas Supply Agreements
-              (GSAs) that are meticulously designed to meet your specific
-              consumption and sales patterns and operational requirements. This
-              guarantees not just consistency in supply, but also predictability
-              in cost, allowing you to focus on your core business without
-              energy concerns.
+              customer-centric approach. We structure{" "}
+              <b>Gas Supply Agreements</b> (GSAs) that are meticulously designed
+              to meet your specific consumption and sales patterns and
+              operational requirements. This guarantees not just consistency in
+              supply, but also predictability in cost, allowing you to focus on
+              your core business without energy concerns.
             </p>
           </div>
         </div>
@@ -133,7 +134,7 @@ const NexusGas = () => {
         {/* Advantages Section */}
         <div className="w-full mt-12 md:mt-20 bg-nexusBlue flex flex-col xl:flex-row rounded-[25px] md:rounded-[50px]">
           <div className="py-12 md:py-16 lg:py-[80px] flex flex-col gap-6 md:gap-8 px-6 md:px-12 lg:pl-[90px] lg:pr-8 justify-center w-full xl:w-[40%]">
-            <h3 className="text-white text-xl md:text-2xl font-bold font-['Poppins'] leading-tight md:leading-10">
+            <h3 className="text-white text-xl md:text-4xl font-bold font-['Poppins'] leading-tight md:leading-10">
               The Nexus Gas Advantage
             </h3>
             {advantages.map((advantage, index) => (
@@ -156,7 +157,9 @@ const NexusGas = () => {
             <div className="text-ash-g-Color flex flex-col gap-8 text-sm md:text-base lg:text-lg font-normal font-['Inter'] leading-relaxed md:leading-8 lg:leading-10">
               {whyChooseUs.map((item, index) => (
                 <div key={index} className="flex flex-col gap-3">
-                  <h4 className="uppercase  text-xl">{item.heading}</h4>
+                  <h4 className="uppercase font-semibold text-xl">
+                    {item.heading}
+                  </h4>
                   <p className="font-light">{item.text}</p>
                 </div>
               ))}
