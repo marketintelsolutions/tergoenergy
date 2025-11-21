@@ -22,8 +22,7 @@ const GasSolution = () => {
           </p>
           <p className="self-stretch mt-10 justify-start text-ash-g-Color text-[22px] font-normal font-['Inter'] leading-[37px]">
             We offer comprehensive gas solutions including Liquefied Petroleum
-            Gas (LPG), Compressed Natural Gas (CNG), Liquefied Natural Gas
-            (LNG), and Propane for various applications. Our services span from
+            Gas (LPG), clean energy, and Propane for various applications. Our services span from
             bulk supply for industrial use to retail distribution for households
             and small businesses.
             <br />
