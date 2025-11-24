@@ -70,7 +70,7 @@ const Navbar = () => {
           </Link>
 
           {/* Contact info - hidden on mobile */}
-          <div className="hidden md:flex flex-wrap w-full items-center justify-center gap-5 lg:gap-[62px]">
+          <div className="hidden md:flex w-full items-center justify-center gap-5 lg:gap-[62px]">
             <div className="flex gap-3 items-center">
               <span className="bg-green-600 p-1 rounded-full h-fit text-white">
                 <TbWorld />
@@ -79,7 +79,7 @@ const Navbar = () => {
                 info@tergoenergy.com
               </p>
             </div>
-            <div className="flex gap-3 hidden xl:flex">
+            <div className="min-w-max gap-3 hidden xl:flex">
               <span className="bg-green-600 p-1 rounded-full h-fit text-white">
                 <MdPhoneInTalk />
               </span>
