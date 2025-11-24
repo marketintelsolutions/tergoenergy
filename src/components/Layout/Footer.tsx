@@ -74,9 +74,9 @@ const Footer = () => {
                 Island, Lagos.
               </p>
               <div className="flex gap-[22px] text-2xl mt-8 md:mt-12 lg:mt-[71px] text-white items-center">
-                <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
+                {/* <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
                   <FaFacebookF />
-                </span>
+                </span> */}
                 <a
                   href="https://www.linkedin.com/company/tergo-energy-limited"
                   target="_blank"
