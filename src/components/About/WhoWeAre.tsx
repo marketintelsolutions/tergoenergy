@@ -19,7 +19,7 @@ const WhoWeAre = () => {
             Tergo Energy Limited, a subsidiary of PanAfrican Capital Holdings
             Limited, is a specialized indigenous energy company facilitating
             Africa's transition to sustainable energy. Since our establishment
-            in 2020, we have focused on responsibly developing natural gas and
+            in 2020, we have focused on responsibly developing clean energy and
             renewable energy solutions that power homes, businesses, and
             industries across Nigeria and West Africa.
             <br />
@@ -98,7 +98,7 @@ const WhoWeAre = () => {
         <p className="flex items-start gap-2">
           <span>•</span>
           <span>
-            <b>Clean & Reliable Energy:</b> Sustainable natural gas and solar
+            <b>Clean & Reliable Energy:</b> Sustainable  clean energy and solar
             solutions tailored to Africa's unique needs.
           </span>
         </p>

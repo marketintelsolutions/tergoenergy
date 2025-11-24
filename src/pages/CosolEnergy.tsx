@@ -140,7 +140,7 @@ const CosolEnergy = () => {
         {/* COSOL Advantage Section */}
         <div className="w-full bg-cosolYellow flex flex-col xl:flex-row rounded-[25px] md:rounded-[50px] mb-12 md:mb-20">
           <div className="py-12 md:py-16 lg:py-[60px] flex flex-col gap-6 md:gap-8 px-6 md:px-12 lg:pl-[90px] lg:pr-8 justify-center w-full xl:w-[40%]">
-            <h3 className="text-black text-xl md:text-2xl font-bold font-['Poppins'] leading-tight md:leading-10">
+            <h3 className="text-black text-xl md:text-4xl font-bold font-['Poppins'] leading-tight md:leading-10">
               The COSOL Advantage
             </h3>
             {cosolAdvantages.map((advantage, index) => (

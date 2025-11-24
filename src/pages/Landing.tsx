@@ -12,7 +12,7 @@ const Landing = () => {
       <WhoWeAre />
       {/* <WeBelieveSection /> */}
       <BringingItTogether />
-      <StayUpdated />
+      {/* <StayUpdated /> */}
     </div>
   );
 };

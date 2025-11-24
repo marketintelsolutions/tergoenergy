@@ -49,9 +49,8 @@ const OurValues = () => {
               Our Mission
             </h2>
             <div className="opacity-80 text-center text-black text-lg md:text-xl font-normal font-['Inter'] leading-loose">
-              Accelerating clean energy transition, through the building of
-              portfolio of assets in renewable energy and natural gas to achieve
-              stakeholders' value.
+            To build a profitable future by delivering accessible, reliable, 
+            and sustainable clean energy solutions.
             </div>
           </div>
           <div className="bg-[#FAF6FF] xl:w-fit py-[35px] px-[25px] rounded-[30px] md:rounded-[58px] flex flex-col items-center gap-4 md:gap-7">
@@ -64,7 +63,8 @@ const OurValues = () => {
               Our Vision
             </h2>
             <div className="opacity-80 text-center text-black text-lg md:text-xl font-normal font-['Inter'] leading-loose">
-              To be a leading provider of clean energy solutions across Africa
+            To be a leading provider of trusted and innovative clean energy 
+            solutions powering a profitable and sustainable future.
             </div>
           </div>
         </div>
