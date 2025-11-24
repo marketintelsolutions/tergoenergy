@@ -95,12 +95,19 @@ const Navbar = () => {
               <FaFacebookF />
             </span>
 
-            <span>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
+            <a
+              href="https://www.linkedin.com/company/tergo-energy-limited"
+              target="_blank"
+            >
+              <span>
+                <FaLinkedin />
+              </span>
+            </a>
+            <a href="https://www.instagram.com/tergoenergy" target="_blank">
+              <span>
+                <FaInstagram />
+              </span>
+            </a>
           </div>
         </div>
       </div>

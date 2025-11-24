@@ -77,13 +77,19 @@ const Footer = () => {
                 <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
                   <FaFacebookF />
                 </span>
-
-                <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
-                  <FaLinkedin />
-                </span>
-                <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
-                  <FaInstagram />
-                </span>
+                <a
+                  href="https://www.linkedin.com/company/tergo-energy-limited"
+                  target="_blank"
+                >
+                  <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
+                    <FaLinkedin />
+                  </span>
+                </a>
+                <a href="https://www.instagram.com/tergoenergy" target="_blank">
+                  <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
+                    <FaInstagram />
+                  </span>
+                </a>
               </div>
             </div>
 
