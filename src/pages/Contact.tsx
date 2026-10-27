@@ -39,7 +39,7 @@ const Contact = () => {
 
       <div className="mt-12 md:mt-20 px-4 md:px-0">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7014444232495!2d3.408562875240249!3d6.432384193558742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ad0c20671c7%3A0x514faf255c7e07e5!2s9%20Elsie%20Femi%20Pearse%20St%2C%20Victoria%20Island%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1752062904803!5m2!1sen!2sng"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7020431697165!2d3.4091637246433706!3d6.432307443558801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ad0e0ba4afd%3A0x34c4120b148603c8!2s8A%20Elsie%20Femi%20Pearse%20St%2C%20Victoria%20Island%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1793107089672!5m2!1sen!2sng"
           width="100%"
           height="400"
           className="md:h-[500px] lg:h-[550px] rounded-[15px] md:rounded-[20px]"
