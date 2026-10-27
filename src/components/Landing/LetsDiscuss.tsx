@@ -48,8 +48,8 @@ const LetsDiscuss = () => {
                 <IoLocation color="green" size={30} />
               </span>
               <span className="text-black text-base md:text-lg lg:text-xl font-medium font-['Poppins'] ">
-                9 Elsie Femi Pearse, Off Adeola Odeku, Victoria Island, Lagos,
-                Nigeria
+                Plot 8A, Elsie Femi Pearse, Off Adeola Odeku, Victoria Island,
+                Lagos, Nigeria
               </span>
             </div>
           </div>

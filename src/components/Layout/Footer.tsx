@@ -70,7 +70,8 @@ const Footer = () => {
                 <br /> +234 906 123 6156
               </p>
               <p className="w-max self-stretch mt-4 md:mt-[15px] opacity-80 justify-start text-white text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-loose tracking-tight">
-              9 Elsie Femi Pearse, Off Adeola Odeku, Victoria Island, Lagos, Nigeria
+                Plot 8A, Elsie Femi Pearse, Off Adeola Odeku, Victoria Island,
+                Lagos, Nigeria
               </p>
               <div className="flex gap-[22px] text-2xl mt-8 md:mt-12 lg:mt-[71px] text-white items-center">
                 {/* <span className="inline-flex p-2 border border-secondaryGreen text-secondaryGreen rounded-full">
