@@ -58,8 +58,7 @@ const Footer = () => {
 
               <p className="mt-5 text-white text-sm font-light">
                 “Tergo Energy Limited is a subsidiary of PanAfrican Capital
-                Holdings Limited, committed to responsibly developing gas and
-                renewable energy solutions across Nigeria and West Africa”
+                Holdings Limited, committed to responsibly developing Clean Energy Solutions across Nigeria and West Africa”
               </p>
 
               <p className=" self-stretch mt-4 md:mt-[15px] opacity-80 justify-start text-white text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-loose tracking-tight">

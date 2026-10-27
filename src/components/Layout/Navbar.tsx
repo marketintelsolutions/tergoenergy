@@ -91,9 +91,9 @@ const Navbar = () => {
 
           {/* Social icons */}
           <div className=" flex gap-[22px] text-green-600 items-center">
-            <span>
+            {/* <span>
               <FaFacebookF />
-            </span>
+            </span> */}
 
             <a
               href="https://www.linkedin.com/company/tergo-energy-limited"
