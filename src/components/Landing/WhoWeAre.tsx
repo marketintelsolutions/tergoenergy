@@ -10,7 +10,7 @@ const WhoWeAre = () => {
         </h1>
         <p className="text-lg leading-10 mt-10">
           Since our founding in 2022, we have been dedicated to the thoughtful
-          development of natural gas and renewable energy solutions. Our
+          development of  clean energy and renewable energy solutions. Our
           approach is rooted in unparalleled regional knowledge and high-caliber
           technical skill, designed specifically for the African market.
         </p>
