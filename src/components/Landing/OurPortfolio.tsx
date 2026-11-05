@@ -38,7 +38,7 @@ const OurPortfolio = () => {
         Our Portfolio Companies
       </h3>
 
-      <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto flex flex-col md:flex-row gap-6 md:gap-[27px] justify-center mt-12 md:mt-20 lg:mt-22">
+      <div className="w-[95%] md:w-[85%] mb-20 max-w-[1600px] mx-auto flex flex-col md:flex-row gap-6 md:gap-[27px] justify-center mt-12 md:mt-20 lg:mt-22">
         {portfolio.map((item, index) => (
           <PortfolioItem {...item} key={index} />
         ))}
