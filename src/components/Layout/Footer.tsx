@@ -58,7 +58,8 @@ const Footer = () => {
 
               <p className="mt-5 text-white text-sm font-light">
                 “Tergo Energy Limited is a subsidiary of PanAfrican Capital
-                Holdings Limited, committed to responsibly developing Clean Energy Solutions across Nigeria and West Africa”
+                Holdings Limited, committed to responsibly developing Clean
+                Energy Solutions across Nigeria and West Africa”
               </p>
 
               <p className=" self-stretch mt-4 md:mt-[15px] opacity-80 justify-start text-white text-base md:text-lg font-normal font-['Inter'] leading-relaxed md:leading-loose tracking-tight">
@@ -133,22 +134,13 @@ const Footer = () => {
         </div>
         <div className="w-[90%] max-w-[1200px] mx-auto flex justify-center flex-wrap gap-10 mt-10">
           <p className="justify-start text-white text-sm md:text-base font-light font-['Poppins'] leading-none">
-            © 2025 Tergo Energy Limited
+            © {new Date().getFullYear()} Tergo Energy Limited
           </p>
-          <p className="justify-start text-white text-sm md:text-base font-light font-['Poppins'] leading-none">
+          {/* <p className="justify-start text-white text-sm md:text-base font-light font-['Poppins'] leading-none">
             Privacy Policy
-          </p>
+          </p> */}
         </div>
       </div>
-
-      {/* <div className="w-[95%] md:w-[85%] max-w-[1600px] mx-auto flex flex-col sm:flex-row gap-4 sm:gap-20 bg-black py-6 md:py-[34px] px-6 md:px-10 rounded-t-[25px] md:rounded-t-[50px] mt-8 md:mt-[47px]">
-        <p className="justify-start text-white text-base md:text-lg font-light font-['Poppins'] leading-none">
-          © 2025 Tergo Energy
-        </p>
-        <p className="justify-start text-white text-base md:text-lg font-light font-['Poppins'] leading-none">
-          Privacy Policy
-        </p>
-      </div> */}
     </footer>
   );
 };

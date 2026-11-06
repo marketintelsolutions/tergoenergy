@@ -4,7 +4,7 @@ import TeamItem from "./TeamItem";
 const boardMembers = [
   {
     name: "Chris Oshiafi",
-    role: "Chief Executive Officer",
+    role: "Chairman",
     image: "chris.jpg",
     bio: [
       "The Chief Executive Officer comes with over two decades of experience in Structured Finance, Consulting, Investment Banking and Venture Capital/Private Equity. He holds a 2nd Class (Upper Division) in Accounting & Finance from the University of London and a Master of Business Administration degree from the University of Lagos.",
@@ -14,7 +14,7 @@ const boardMembers = [
   },
   {
     name: "Sina Alimi",
-    role: "Deputy Chief Executive Officer",
+    role: "Director",
     image: "sina.jpg",
     bio: [
       "Sina has considerable experience in Deal Structuring, Project Finance, Mergers & Acquisitions, Privatization and Asset Management. He is an Alumnus of the Lagos Business School's Chief Executive Programme (CEP 18) and IESE Business School, Barcelona, Spain. He holds a Bachelor of Science degree in Accounting (Second Class Upper) from the prestigious University of Lagos in 1989. ",
@@ -23,7 +23,7 @@ const boardMembers = [
   },
   {
     name: "Eric Okoruwa",
-    role: "Executive Director",
+    role: "Director",
     image: "eric.jpg",
     bio: [
       "Eric holds a master's degree in marketing and a bachelor's degree in business administration from the University of Lagos. He is a member of the Nigerian Institute of Management. Prior to joining PanAfrican Capital Holdings, he was actively involved in various high-profile projects, capital raising exercise and advisory mandates in the private sector as well as privatization programme of both the State and Federal governments at Profound Securities Limited, Fountain Trust Bank Plc and Refuge Home Savings and Loans Limited.",
@@ -32,7 +32,7 @@ const boardMembers = [
   },
   {
     name: "Nentok Gomwalk",
-    role: "Head, Finance, Investment & Strategy",
+    role: "Director",
     image: "nentok.jpg",
     bio: [
       "Nentok holds a master's degree in marketing and a bachelor's degree in business administration from the University of Lagos. He is a member of the Nigerian Institute of Management. Prior to joining PanAfrican Capital Holdings, he was actively involved in various high-profile projects, capital raising exercise and advisory mandates in the private sector as well as privatization programme of both the State and Federal governments at Profound Securities Limited, Fountain Trust Bank Plc and Refuge Home Savings and Loans Limited. He has industry experience close to 20 years in Investment Banking & Structured Finance.",
@@ -42,7 +42,7 @@ const boardMembers = [
 
   {
     name: "Bolarinwa Sanni",
-    role: "Executive Director",
+    role: "Director",
     image: "bolarinwa.jpg",
     bio: [
       "Bolarinwa Sanni is a seasoned investment banker with over 15 years of experience in financial advisory, investment banking, and capital raising across Africa. He brings a strategic approach to structuring complex financial transactions, with a strong focus on infrastructure, energy, and transformative investments that drive sustainable economic growth across the continent.",
